@@ -1126,7 +1126,7 @@ ListOfMobs:
       - "mobheads:firstmobhead first_mob_head"
       - "mobheads:thelegend27 squid"
       - "mobheads:watermobs squid"
-  GlowSquid:
+  Glow_Squid:
     dropChance: DEFAULT
     lootingBonus: DEFAULT
     dropOnChargedCreeperDeath: true
