@@ -552,7 +552,7 @@ ListOfMobs:
     broadcastMessage: true
     displayName: "&eBrown Trader Llama Head"
     random_uuid: aaa3b3aa-c25c-40ae-b9d4-216d61464cd0
-    textureCode: eyJ0aW1lc3RhbXAiOjE1NzY4MDYxODQ1MzgsInByb2ZpbGVJZCI6Ijg0Zjk2ZjBmYTVkYzRlNTliZGM1OWYzYmVhMDBhNDkwIiwicHJvZmlsZU5hbWUiOiJab21iaWVfU3RyaWtlciIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mOGVkNmE1ZDcyMjQzNWRiNTE5YTA3YjJlMDJhNDQ4NzU1YWUzZDYxMDc3OTRlMDRhM2JiYWRhMThiNjYwMWMwIn19fQ=
+    textureCode: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODQyNDc4MGIzYzVjNTM1MWNmNDlmYjViZjQxZmNiMjg5NDkxZGY2YzQzMDY4M2M4NGQ3ODQ2MTg4ZGI0Zjg0ZCJ9fX0=
     advancements:
       - "mobheads:firstmobhead first_mob_head"
       - "mobheads:thelegend27 brown_llama"
@@ -564,7 +564,7 @@ ListOfMobs:
       broadcastMessage: true
       displayName: "&eCreamy Trader Llama Head"
       random_uuid: bbbbbbbb-aaa1-47c6-9e22-fff78ddf50e0
-      textureCode: eyJ0aW1lc3RhbXAiOjE1NzY4MDYzNjU3MjksInByb2ZpbGVJZCI6Ijg0Zjk2ZjBmYTVkYzRlNTliZGM1OWYzYmVhMDBhNDkwIiwicHJvZmlsZU5hbWUiOiJab21iaWVfU3RyaWtlciIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NjJlMmZjMjZjMzVmNzA1MjVmMDkzYWQ4NmE1NjVjMzVhZDk1NDViZTllOTkxNzExOGNiNmM3ZTQ2MDdmMTg2In19fQ
+    textureCode: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTg5YTJlYjE3NzA1ZmU3MTU0YWIwNDFlNWM3NmEwOGQ0MTU0NmEzMWJhMjBlYTMwNjBlM2VjOGVkYzEwNDEyYyJ9fX0=
       advancements:
         - "mobheads:firstmobhead first_mob_head"
         - "mobheads:thelegend27 creamy_llama"
@@ -576,7 +576,7 @@ ListOfMobs:
       broadcastMessage: true
       displayName: "&eGray Trader Llama Head"
       random_uuid: 93f95ccc-c230-482b-a26a-8e2a74fe7690
-      textureCode: eyJ0aW1lc3RhbXAiOjE1NzY4MDY0MDA3MzgsInByb2ZpbGVJZCI6Ijg0Zjk2ZjBmYTVkYzRlNTliZGM1OWYzYmVhMDBhNDkwIiwicHJvZmlsZU5hbWUiOiJab21iaWVfU3RyaWtlciIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82MjBjMWVmNzdiNmYzMGY3NzA1N2EyZDRlYjZhY2YxMDViMzM5M2IyNmJkMGQ1OGFjZTk3ZDc3YjAzMThmNDg2In19fQ
+    textureCode: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmU0ZDhhMGJjMTVmMjM5OTIxZWZkOGJlMzQ4MGJhNzdhOThlZTdkOWNlMDA3MjhjMGQ3MzNmMGEyZDYxNGQxNiJ9fX0=
       advancements:
         - "mobheads:firstmobhead first_mob_head"
         - "mobheads:thelegend27 gray_llama"
@@ -588,7 +588,7 @@ ListOfMobs:
       broadcastMessage: true
       displayName: "&eWhite Trader Llama Head"
       random_uuid: 8b2cdddd-d666-445a-acb6-2477471a751c
-      textureCode: eyJ0aW1lc3RhbXAiOjE1NzY4MDY0MzA4NjIsInByb2ZpbGVJZCI6Ijg0Zjk2ZjBmYTVkYzRlNTliZGM1OWYzYmVhMDBhNDkwIiwicHJvZmlsZU5hbWUiOiJab21iaWVfU3RyaWtlciIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kMTBkY2U5MWM1ZDlhYWNmN2JmMjk3YTUxN2U2MDNjYTliNTIyNTU5MDRjYmQ2ZDg4YzI0MmVkNTI4ODhiYzE3In19fQ=
+    textureCode: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzA4N2E1NTZkNGZmYTk1ZWNkMjg0NGYzNTBkYzQzZTI1NGU1ZDUzNWZhNTk2ZjU0MGQ3ZTc3ZmE2N2RmNDY5NiJ9fX0=
       advancements:
         - "mobheads:firstmobhead first_mob_head"
         - "mobheads:thelegend27 white_llama"
