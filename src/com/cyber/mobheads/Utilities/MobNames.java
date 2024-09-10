@@ -1,11 +1,30 @@
 package com.cyber.mobheads.Utilities;
 
-import org.bukkit.Material;
-import org.bukkit.entity.*;
+import org.bukkit.entity.Axolotl;
+import org.bukkit.entity.Cat;
+import org.bukkit.entity.Creeper;
+import org.bukkit.entity.Entity;
+import org.bukkit.entity.Fox;
+import org.bukkit.entity.Frog;
+import org.bukkit.entity.Goat;
+import org.bukkit.entity.Horse;
+import org.bukkit.entity.Llama;
+import org.bukkit.entity.MushroomCow;
+import org.bukkit.entity.Panda;
+import org.bukkit.entity.Parrot;
+import org.bukkit.entity.Rabbit;
+import org.bukkit.entity.Sheep;
+import org.bukkit.entity.TraderLlama;
+import org.bukkit.entity.Villager;
+import org.bukkit.entity.Villager.Profession;
+import org.bukkit.entity.Wolf;
+import org.bukkit.entity.ZombieVillager;
 
 
 public enum MobNames {
 	Bat,
+	Camel,
+	Sniffer,
 	Blaze,
 	Cave_Spider,
 	Chicken,
@@ -86,7 +105,6 @@ public enum MobNames {
 	Snow_Golem,
 	Spider,
 	Squid,
-	Glow_Squid,
 	Stray,
 	Turtle,
 	Vex,
@@ -94,17 +112,51 @@ public enum MobNames {
 	Witch,
 	Wither,
 	Wither_Skeleton,
-	Wild_Wolf,
-	Tamed_Wolf,
 	Zombie,
 	Zombie_Pigman,
+	Armadillo,
+	Bogged,
+	Breeze,
+	
 	Zombie_Butcher_Villager,
 	Zombie_Cleric_Villager,
 	Zombie_Farmer_Villager,
 	Zombie_Librarian_Villager,
 	Zombie_Nitwit_Villager,
 	Zombie_Smith_Villager,
+	/* From here the missing zombie villager professions */
+	Zombie_Armorer_Villager,
+	Zombie_Cartographer_Villager,
+	Zombie_Fisherman_Villager,
+	Zombie_Fletcher_Villager,
+	Zombie_Leatherworker_Villager,
+	Zombie_Mason_Villager,
+	Zombie_Shepherd_Villager,
+	Zombie_Weaponsmith_Villager,
+	Zombie_Villager,
+
 	Bee,
+
+	/* 1.17 Mobs */
+	Goat,
+	Screaming_Goat,
+	Lucy_Axolotl,
+	Wild_Axolotl,
+	Gold_Axolotl,
+	Cyan_Axolotl,
+	Blue_Axolotl,
+	Glow_Squid,
+	/* 1.17 Mobs */
+	
+	Warden,
+	Allay,
+	Tadpole,
+	/*
+	 * Frogs
+	 */
+	Temperate_Frog,
+	Warm_Frog,
+	Cold_Frog,
 
 	Villager,
 	Villager_Armorer,
@@ -117,6 +169,11 @@ public enum MobNames {
 	Villager_Librarian,
 	Villager_Shepherd,
 	Villager_Weaponsmith,
+	/* From here the missing villager professions */
+	Villager_Nitwit,
+	Villager_Leatherworker,
+	Villager_Mason,
+	Villager_Toolsmith,
 
 	Tropical_Fish,
 	Cod,
@@ -125,8 +182,19 @@ public enum MobNames {
 
 	Wandering_Trader,
 	Pillager,
-	Ravager, Mooshroom_Brown,
-	Panda_Normal, Panda_Aggressive, Panda_Lazy, Panda_Brown, Panda_Worried, Panda_Playful, Panda_Weak, Fox_Normal, Fox_Snow,
+	Ravager,
+	Mooshroom_Brown,
+
+	Panda_Normal,
+	Panda_Aggressive,
+	Panda_Lazy,
+	Panda_Brown,
+	Panda_Worried,
+	Panda_Playful,
+	Panda_Weak,
+
+	Fox_Normal,
+	Fox_Snow,
 
 	//These are the invalid cats. Still have to load them:
 	Black_Cat,
@@ -144,28 +212,62 @@ public enum MobNames {
 	Cat_Siamese,
 	Cat_Tabby,
 	Cat_White,
-
+	
+	/*
+	 * Wolf Types
+	 */
+    Ashen_Wolf,
+    Black_Wolf,
+    Chestnut_Wolf,
+    Default_Wolf,
+    Pale_Wolf,
+    Rusty_Wolf,
+    Snowy_Wolf,
+    Spotted_Wolf,
+    Striped_Wolf,
+    Woods_Wolf,
+	Wild_Wolf,
+	Tamed_Wolf,
+	
+	
 	Hoglin,
 	Zoglin,
 	Piglin,
 	Piglin_Brute,
 	Giant,
-	Strider,
-	;
+	Strider;
 
 
 	public static MobNames getName(Entity entity) {
-		if(entity.getType().name().equals("PIG_ZOMBIE"))
+		if(entity.getType().name().equalsIgnoreCase("ZOMBIFIED_PIGLIN")) {
 			return Zombie_Pigman;
-
+		}
+		if (entity.getType().name().equalsIgnoreCase("ARMADILLO")) {
+			return Armadillo;
+		}
+		if (entity.getType().name().equalsIgnoreCase("BOGGED")) {
+			return Bogged;
+		}
+		
 		switch (entity.getType()) {
 			case BAT:
 				return Bat;
+			case CAMEL:
+				return Camel;
+			case SNIFFER:
+				return Sniffer;
+			case WARDEN:
+				return Warden;
+			case ALLAY:
+				return Allay;
+			case TADPOLE:
+				return Tadpole;
+			case FROG:
+				return getFrogName((Frog) entity);
 			case BLAZE:
 				return Blaze;
 			case OCELOT:
-				//As of 1.14, Ocelots do not transform, so they can retain their skin.
-				return Ocelot;//getCatName((Ocelot) entity);
+				return Ocelot;
 			case CAVE_SPIDER:
 				return Cave_Spider;
 			case CHICKEN:
@@ -214,7 +316,7 @@ public enum MobNames {
 				return getLLamaTraderName((TraderLlama) entity);
 			case MAGMA_CUBE:
 				return Magma_Cube;
-			case MUSHROOM_COW:
+			case MOOSHROOM:
 				return getMooshroomName((MushroomCow) entity);
 			case MULE:
 				return Mule;
@@ -238,7 +340,7 @@ public enum MobNames {
 				return Skeleton;
 			case SLIME:
 				return Slime;
-			case SNOWMAN:
+			case SNOW_GOLEM:
 				return Snow_Golem;
 			case SPIDER:
 				return Spider;
@@ -246,6 +348,10 @@ public enum MobNames {
 				return Squid;
 			case GLOW_SQUID:
 				return Glow_Squid;
+			case AXOLOTL:
+				return getAxolotlName((Axolotl)entity);
+			case GOAT:
+				return getGoatName((Goat)entity);
 			case STRAY:
 				return Stray;
 			case TURTLE:
@@ -304,8 +410,58 @@ public enum MobNames {
 				return Zoglin;
 			case HOGLIN:
 				return Hoglin;
+			case BREEZE:
+				return Breeze;
+		default:
+			break;
 		}
 		return null;
+	}
+
+	private static MobNames getGoatName(final Goat goat) {
+		if (goat.isScreaming()) {
+			return MobNames.Screaming_Goat;
+		}
+		return MobNames.Goat;
+	}
+
+
+	
+	private static MobNames getAxolotlName(final Axolotl axolotl) {
+		switch (axolotl.getVariant()) {
+			case BLUE: {
+				return MobNames.Blue_Axolotl;
+			}
+			case WILD: {
+				return MobNames.Wild_Axolotl;
+			}
+			case GOLD: {
+				return MobNames.Gold_Axolotl;
+			}
+			case CYAN: {
+				return MobNames.Cyan_Axolotl;
+			}
+			case LUCY: {
+				return MobNames.Lucy_Axolotl;
+			}
+			default: {
+				return null;
+			}
+		}
+	}
+
+	private static MobNames getFrogName(final Frog frog) {
+		if (frog.getVariant().equals(Frog.Variant.COLD)) {
+			return MobNames.Cold_Frog;
+		}
+		if (frog.getVariant().equals(Frog.Variant.TEMPERATE)) {
+			return MobNames.Temperate_Frog;
+		}
+		if (frog.getVariant().equals(Frog.Variant.WARM)) {
+			return MobNames.Warm_Frog;
+		}
+
+		return MobNames.Temperate_Frog;
 	}
 
 	private static MobNames getCatName(Cat ocelot) {
@@ -313,33 +469,46 @@ public enum MobNames {
 		if (ocelot.getCatType() == null) {
 			return null;
 		}
-		switch (ocelot.getCatType()) {
-			case ALL_BLACK:
-				return Cat_AllBack;
-			case BRITISH_SHORTHAIR:
-				return Cat_British_ShortHair;
-			case SIAMESE:
-				return Cat_Siamese;
-			case RAGDOLL:
-				return Cat_Ragdoll;
-			case PERSIAN:
-				return Cat_Persian;
-			case JELLIE:
-				return Cat_Jellie;
-			case CALICO:
-				return Cat_Calico;
-			case WHITE:
-				return Cat_White;
-			case TABBY:
-				return Cat_Tabby;
-			case BLACK:
-				return Cat_Black;
-			case RED:
-				return Cat_Red;
+		if (ocelot.getCatType().equals(Cat.Type.ALL_BLACK)) {
+			return Cat_AllBack;
 		}
+		if (ocelot.getCatType().equals(Cat.Type.BRITISH_SHORTHAIR)) {
+			return Cat_British_ShortHair;
+		}
+		if (ocelot.getCatType().equals(Cat.Type.SIAMESE)) {
+			return Cat_Siamese;
+		}
+		if (ocelot.getCatType().equals(Cat.Type.RAGDOLL)) {
+			return Cat_Ragdoll;
+		}
+		if (ocelot.getCatType().equals(Cat.Type.PERSIAN)) {
+			return Cat_Persian;
+		}
+		if (ocelot.getCatType().equals(Cat.Type.JELLIE)) {
+			return Cat_Jellie;
+		}
+		if (ocelot.getCatType().equals(Cat.Type.CALICO)) {
+			return Cat_Calico;
+		}
+		if (ocelot.getCatType().equals(Cat.Type.WHITE)) {
+			return Cat_White;
+		}
+		if (ocelot.getCatType().equals(Cat.Type.TABBY)) {
+			return Cat_Tabby;
+		}
+		if (ocelot.getCatType().equals(Cat.Type.BLACK)) {
+			return Cat_Black;
+		}
+		if (ocelot.getCatType().equals(Cat.Type.RED)) {
+			return Cat_Red;
+		}
+
 		return null;
 
 	}
+
+	
+	
 	private static MobNames getFoxName(Fox ocelot) {
 
 		if (ocelot.getFoxType() == null) {
@@ -355,22 +524,6 @@ public enum MobNames {
 
 	}
 
-	private static MobNames getCatName(Ocelot ocelot) {
-		if (ocelot.getCatType() == null) {
-			return null;
-		}
-		switch (ocelot.getCatType()) {
-			case BLACK_CAT:
-				return Black_Cat;
-			case RED_CAT:
-				return Ginger_Cat;
-			case SIAMESE_CAT:
-				return Siamese_Cat;
-			case WILD_OCELOT:
-				return Ocelot;
-		}
-		return null;
-	}
 
 	private static MobNames getMooshroomName(MushroomCow mooshroom) {
 		if (mooshroom.getVariant() == MushroomCow.Variant.BROWN) {
@@ -440,6 +593,7 @@ public enum MobNames {
 			case WHITE:
 				return White_Llama_Trader;
 		}
+		
 		return null;
 	}
 
@@ -488,11 +642,11 @@ public enum MobNames {
 		return null;
 	}
 
-	private static MobNames getPandaName(Panda rabbit) {
-		if (rabbit.getMainGene() == null) {
+	private static MobNames getPandaName(Panda panda) {
+		if (panda.getMainGene() == null) {
 			return null;
 		}
-		switch (rabbit.getMainGene()) {
+		switch (panda.getMainGene()) {
 			case LAZY:
 				return Panda_Lazy;
 			case WEAK:
@@ -555,37 +709,102 @@ public enum MobNames {
 		return null;
 	}
 
-	private static MobNames getWolfName(Wolf wolf) {
-		/* 428 */
-		if (wolf.isTamed()) {
-			/* 429 */
-			return Tamed_Wolf;
-			/*     */
+	/*
+	 * TODO test wolf variants
+	 */
+	private static MobNames getWolfName(Wolf w) {
+		
+	
+		if (w.getVariant().equals(Wolf.Variant.ASHEN)) {
+			return Ashen_Wolf;
 		}
-		/*     */
-		/* 432 */
-		return Wild_Wolf;
-		/*     */
+		if (w.getVariant().equals(Wolf.Variant.BLACK)) {
+			return Black_Wolf;
+		}
+		if (w.getVariant().equals(Wolf.Variant.CHESTNUT)) {
+			return Chestnut_Wolf;
+		}
+		if (w.getVariant().equals(Wolf.Variant.PALE)) {
+			return Pale_Wolf;
+		}
+		if (w.getVariant().equals(Wolf.Variant.RUSTY)) {
+			return Rusty_Wolf;
+		}
+		if (w.getVariant().equals(Wolf.Variant.SNOWY)) {
+			return Snowy_Wolf;
+		}
+		if (w.getVariant().equals(Wolf.Variant.SPOTTED)) {
+			return Spotted_Wolf;
+		}
+		if (w.getVariant().equals(Wolf.Variant.STRIPED)) {
+			return Striped_Wolf;
+		}
+		if (w.getVariant().equals(Wolf.Variant.WOODS)) {
+			return Woods_Wolf;
+		}
+		return Default_Wolf;
+		
+		
+		/*
+		if (wolf.isTamed()) {
+			return Tamed_Wolf;
+		}
+		
+		return Wild_Wolf;*/
+
 	}
 
 	private static MobNames getZombieVillagerName(ZombieVillager zombieVillager) {
 		if (zombieVillager.getVillagerProfession() == null) {
 			return Zombie_Nitwit_Villager;
 		}
-		switch (zombieVillager.getVillagerProfession()) {
-			case TOOLSMITH:
-				return Zombie_Smith_Villager;
-			case BUTCHER:
-				return Zombie_Butcher_Villager;
-			case FARMER:
-				return Zombie_Farmer_Villager;
-			case LIBRARIAN:
-				return Zombie_Librarian_Villager;
-			case CLERIC:
-				return Zombie_Cleric_Villager;
-			default:
-				return Zombie_Nitwit_Villager;
+		
+		if (zombieVillager.getVillagerProfession().equals(Profession.TOOLSMITH)) {
+			return Zombie_Smith_Villager;
 		}
+		if (zombieVillager.getVillagerProfession().equals(Profession.BUTCHER)) {
+			return Zombie_Butcher_Villager;
+		}
+		if (zombieVillager.getVillagerProfession().equals(Profession.FARMER)) {
+			return Zombie_Farmer_Villager;
+		}
+		if (zombieVillager.getVillagerProfession().equals(Profession.LIBRARIAN)) {
+			return Zombie_Librarian_Villager;
+		}
+		if (zombieVillager.getVillagerProfession().equals(Profession.CLERIC)) {
+			return Zombie_Cleric_Villager;
+		}
+		if (zombieVillager.getVillagerProfession().equals(Profession.ARMORER)) {
+			return Zombie_Armorer_Villager;
+		}
+		if (zombieVillager.getVillagerProfession().equals(Profession.CARTOGRAPHER)) {
+			return Zombie_Cartographer_Villager;
+		}
+		if (zombieVillager.getVillagerProfession().equals(Profession.FISHERMAN)) {
+			return Zombie_Fisherman_Villager;
+		}
+		if (zombieVillager.getVillagerProfession().equals(Profession.FLETCHER)) {
+			return Zombie_Fletcher_Villager;
+		}
+		if (zombieVillager.getVillagerProfession().equals(Profession.LEATHERWORKER)) {
+			return Zombie_Leatherworker_Villager;
+		}
+		if (zombieVillager.getVillagerProfession().equals(Profession.MASON)) {
+			return Zombie_Mason_Villager;
+		}
+		if (zombieVillager.getVillagerProfession().equals(Profession.SHEPHERD)) {
+			return Zombie_Shepherd_Villager;
+		}
+		if (zombieVillager.getVillagerProfession().equals(Profession.WEAPONSMITH)) {
+			return Zombie_Weaponsmith_Villager;
+		}
+		if (zombieVillager.getVillagerProfession().equals(Profession.NITWIT)) {
+			return Zombie_Nitwit_Villager;
+		}
+		return Zombie_Villager;
+
+			
+	
 	}
 
 
@@ -593,30 +812,50 @@ public enum MobNames {
 		if (villager.getProfession() == null) {
 			return Villager;
 		}
-		switch (villager.getProfession()) {
-			case ARMORER:
-				return Villager_Armorer;
-			case BUTCHER:
-				return Villager_Butcher;
-			case CARTOGRAPHER:
-				return Villager_Cartographer;
-			case CLERIC:
-				return Villager_Cleric;
-			case FARMER:
-				return Villager_Farmer;
-			case FISHERMAN:
-				return Villager_Fisherman;
-			case FLETCHER:
-				return Villager_Fletcher;
-			case LIBRARIAN:
-				return Villager_Librarian;
-			case SHEPHERD:
-				return Villager_Shepherd;
-			case WEAPONSMITH:
-				return Villager_Weaponsmith;
-			default:
-				return Villager;
+		if (villager.getProfession().equals(Profession.ARMORER)) {
+			return Villager_Armorer;
 		}
+		if (villager.getProfession().equals(Profession.BUTCHER)) {
+			return Villager_Butcher;
+		}
+		if (villager.getProfession().equals(Profession.CARTOGRAPHER)) {
+			return Villager_Cartographer;
+		}
+		if (villager.getProfession().equals(Profession.CLERIC)) {
+			return Villager_Cleric;
+		}
+		if (villager.getProfession().equals(Profession.FARMER)) {
+			return Villager_Farmer;
+		}
+		if (villager.getProfession().equals(Profession.FISHERMAN)) {
+			return Villager_Fisherman;
+		}
+		if (villager.getProfession().equals(Profession.FLETCHER)) {
+			return Villager_Fletcher;
+		}
+		if (villager.getProfession().equals(Profession.LIBRARIAN)) {
+			return Villager_Librarian;
+		}
+		if (villager.getProfession().equals(Profession.SHEPHERD)) {
+			return Villager_Shepherd;
+		}
+		if (villager.getProfession().equals(Profession.WEAPONSMITH)) {
+			return Villager_Weaponsmith;
+		}
+		if (villager.getProfession().equals(Profession.NITWIT)) {
+			return Villager_Nitwit;
+		}
+		if (villager.getProfession().equals(Profession.LEATHERWORKER)) {
+			return Villager_Leatherworker;
+		}
+		if (villager.getProfession().equals(Profession.MASON)) {
+			return Villager_Mason;
+		}
+		if (villager.getProfession().equals(Profession.TOOLSMITH)) {
+			return Villager_Toolsmith;
+		}
+		return Villager;
+	
 	}
 
 	private static MobNames getFishName(Entity entity) {
