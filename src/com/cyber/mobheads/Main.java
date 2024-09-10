@@ -58,7 +58,6 @@ public class Main
 
 
 		Bukkit.getPluginManager().registerEvents(new EntityDeathListener(), this);
-		Bukkit.getPluginManager().registerEvents(new SkullBreakListener(), this);
 		Bukkit.getPluginManager().registerEvents(new FishListener(), this);
 
 		ConfigController.configurationCheck();
