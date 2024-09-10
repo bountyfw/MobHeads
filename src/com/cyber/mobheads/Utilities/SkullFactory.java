@@ -1,12 +1,9 @@
-/*     */
 package com.cyber.mobheads.Utilities;
 
 
-import com.cyber.mobheads.Config.ConfigController;
-import com.cyber.mobheads.advancements.AdvancementsManager;
-import com.mojang.authlib.GameProfile;
-import com.mojang.authlib.properties.Property;
-import org.bukkit.Bukkit;
+import java.lang.reflect.Field;
+import java.util.UUID;
+
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.entity.Entity;
@@ -15,8 +12,10 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.inventory.meta.SkullMeta;
 
-import java.lang.reflect.Field;
-import java.util.UUID;
+import com.cyber.mobheads.Config.ConfigController;
+import com.cyber.mobheads.advancements.AdvancementsManager;
+import com.mojang.authlib.GameProfile;
+import com.mojang.authlib.properties.Property;
 
 public class SkullFactory{
 
@@ -41,10 +40,10 @@ public class SkullFactory{
 			return vanillaSkull;
 		}
 
-		ItemStack skull = new ItemStack(Material.PLAYER_HEAD, 1,(short)3);
+		ItemStack skull = new ItemStack(Material.PLAYER_HEAD, 1);
 
 		SkullMeta meta = (SkullMeta)skull.getItemMeta();
-		GameProfile profile = new GameProfile(UUID.fromString(randomUUID), null);
+		GameProfile profile = new GameProfile(UUID.fromString(randomUUID), "");
 		profile.getProperties().put("textures", new Property("textures", encodedTexture));
 		Field profileField = null;
 		try {
@@ -63,7 +62,11 @@ public class SkullFactory{
 		return skull;
 	}
 
+	@SuppressWarnings("deprecation")
 	public static ItemStack getPlayerSkull(String playername, Player killer) {
+		/*
+		 * TEST if it fixes
+		 */
 		ItemStack item = new ItemStack(Material.PLAYER_HEAD, 1);
 		ItemMeta itemMeta = item.getItemMeta();
 		((SkullMeta) itemMeta).setOwner(playername);
@@ -90,13 +93,14 @@ public class SkullFactory{
 			case Wither_Skeleton:
 				mat = Material.WITHER_SKELETON_SKULL;
 				return new ItemStack(mat, 1);
+		default:
+			break;
 		}
 		return null;
 	}
 
 
 	public static String getVanillaName(MobNames mobname) {
-		Material mat;
 		switch (mobname) {
 			case Skeleton:
 				return "Skeleton Head";
@@ -108,6 +112,8 @@ public class SkullFactory{
 				return "Dragon Head";
 			case Wither_Skeleton:
 				return "Wither Skeleton Head";
+		default:
+			break;
 		}
 		return null;
 	}
@@ -123,13 +129,10 @@ public class SkullFactory{
 				return "Dragon Head";
 			case WITHER_SKELETON:
 				return "Wither Skeleton Head";
+		default:
+			break;
 		}
 		return null;
 	}
 }
 
-
-/* Location:              F:\Minecraft Servers\SpigotLobby\plugins\MobHeads 2.4.jar!\com\cyber\mobheads\Utilities\SkullFactory.class
- * Java compiler version: 8 (52.0)
- * JD-Core Version:       1.0.7
- */
