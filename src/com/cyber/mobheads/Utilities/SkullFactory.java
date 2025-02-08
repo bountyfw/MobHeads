@@ -1,9 +1,10 @@
 package com.cyber.mobheads.Utilities;
 
-
 import java.lang.reflect.Field;
 import java.util.UUID;
 
+import com.destroystokyo.paper.profile.ProfileProperty;
+import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.entity.Entity;
@@ -16,6 +17,7 @@ import com.cyber.mobheads.Config.ConfigController;
 import com.cyber.mobheads.advancements.AdvancementsManager;
 import com.mojang.authlib.GameProfile;
 import com.mojang.authlib.properties.Property;
+import com.destroystokyo.paper.profile.PlayerProfile;
 
 public class SkullFactory{
 
@@ -43,16 +45,19 @@ public class SkullFactory{
 		ItemStack skull = new ItemStack(Material.PLAYER_HEAD, 1);
 
 		SkullMeta meta = (SkullMeta)skull.getItemMeta();
-		GameProfile profile = new GameProfile(UUID.fromString(randomUUID), "");
-		profile.getProperties().put("textures", new Property("textures", encodedTexture));
-		Field profileField = null;
-		try {
-			profileField = meta.getClass().getDeclaredField("profile");
-			profileField.setAccessible(true);
-			profileField.set(meta, profile);
-		} catch (NoSuchFieldException | IllegalArgumentException | IllegalAccessException e1) {
-			e1.printStackTrace();
-		}
+		//GameProfile profile = new GameProfile(UUID.fromString(randomUUID), "");
+		//profile.getProperties().put("textures", new Property("textures", encodedTexture));
+		//Field profileField = null;
+		//try {
+		//	profileField = meta.getClass().getDeclaredField("profile");
+		//	profileField.setAccessible(true);
+		//	profileField.set(meta, profile);
+		//} catch (NoSuchFieldException | IllegalArgumentException | IllegalAccessException e1) {
+		//	e1.printStackTrace();
+		//}
+		PlayerProfile profile = Bukkit.createProfile(UUID.fromString(randomUUID));
+		profile.setProperty(new ProfileProperty("textures", encodedTexture));
+		meta.setPlayerProfile(profile);
 
 		meta.setDisplayName(ChatColor.RESET + displayName);
 		if (owner != null) {
