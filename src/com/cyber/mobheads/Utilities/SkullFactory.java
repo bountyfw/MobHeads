@@ -7,6 +7,7 @@ import com.destroystokyo.paper.profile.ProfileProperty;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
+import org.bukkit.damage.DamageType;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
@@ -18,6 +19,7 @@ import com.cyber.mobheads.advancements.AdvancementsManager;
 import com.mojang.authlib.GameProfile;
 import com.mojang.authlib.properties.Property;
 import com.destroystokyo.paper.profile.PlayerProfile;
+import org.bukkit.tag.DamageTypeTags;
 
 public class SkullFactory{
 
@@ -58,6 +60,7 @@ public class SkullFactory{
 		PlayerProfile profile = Bukkit.createProfile(UUID.fromString(randomUUID));
 		profile.setProperty(new ProfileProperty("textures", encodedTexture));
 		meta.setPlayerProfile(profile);
+		meta.setDamageResistant(DamageTypeTags.IS_FIRE);
 
 		meta.setDisplayName(ChatColor.RESET + displayName);
 		if (owner != null) {

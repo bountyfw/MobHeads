@@ -1,24 +1,7 @@
 package com.cyber.mobheads.Utilities;
 
-import org.bukkit.entity.Axolotl;
-import org.bukkit.entity.Cat;
-import org.bukkit.entity.Creeper;
-import org.bukkit.entity.Entity;
-import org.bukkit.entity.Fox;
-import org.bukkit.entity.Frog;
-import org.bukkit.entity.Goat;
-import org.bukkit.entity.Horse;
-import org.bukkit.entity.Llama;
-import org.bukkit.entity.MushroomCow;
-import org.bukkit.entity.Panda;
-import org.bukkit.entity.Parrot;
-import org.bukkit.entity.Rabbit;
-import org.bukkit.entity.Sheep;
-import org.bukkit.entity.TraderLlama;
-import org.bukkit.entity.Villager;
+import org.bukkit.entity.*;
 import org.bukkit.entity.Villager.Profession;
-import org.bukkit.entity.Wolf;
-import org.bukkit.entity.ZombieVillager;
 
 
 public enum MobNames {
@@ -235,8 +218,12 @@ public enum MobNames {
 	Piglin,
 	Piglin_Brute,
 	Giant,
-	Strider;
+	Strider,
 
+	/*
+	 * 1.21.4
+	 */
+	Creaking;
 
 	public static MobNames getName(Entity entity) {
 		if(entity.getType().name().equalsIgnoreCase("ZOMBIFIED_PIGLIN")) {
@@ -412,6 +399,8 @@ public enum MobNames {
 				return Hoglin;
 			case BREEZE:
 				return Breeze;
+			case CREAKING:
+				return Creaking;
 		default:
 			break;
 		}

@@ -4,7 +4,6 @@ import com.cyber.mobheads.Config.ConfigController;
 import com.cyber.mobheads.Utilities.*;
 import com.cyber.mobheads.listeners.EntityDeathListener;
 import com.cyber.mobheads.listeners.FishListener;
-import com.cyber.mobheads.listeners.SkullBreakListener;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;

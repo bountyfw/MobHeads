@@ -191,7 +191,7 @@ public class EntityDeathListener
 		MobMeta mobmeta = ConfigController.getRandomConfigMobMeta(mobName, false);
 
 		if (!forceDrop) {
-			int lootingValue = killer.getInventory().getItemInMainHand().getEnchantmentLevel(Enchantment.LOOT_BONUS_MOBS);
+			int lootingValue = killer.getInventory().getItemInMainHand().getEnchantmentLevel(Enchantment.LOOTING);
 			double dropBonus = mobmeta.getDropBonus();
 			double dropChance = mobmeta.getDropChance();
 
@@ -226,7 +226,7 @@ public class EntityDeathListener
 			return null;
 		}
 
-		int lootingValue = killer.getInventory().getItemInMainHand().getEnchantmentLevel(Enchantment.LOOT_BONUS_MOBS);
+		int lootingValue = killer.getInventory().getItemInMainHand().getEnchantmentLevel(Enchantment.LOOTING);
 		double dropChance = ConfigController.getDropChancePlayer(lootingValue);
 
 		if (willDrop(dropChance)) {
