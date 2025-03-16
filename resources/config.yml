@@ -2313,6 +2313,17 @@ ListOfMobs:
     advancements:
       - "mobheads:firstmobhead first_mob_head"
       - "mobheads:thelegend27 villager_Toolsmith"
+  Creaking:
+    dropChance: DEFAULT
+    lootingBonus: DEFAULT
+    dropOnChargedCreeperDeath: true
+    broadcastMessage: false
+    displayName: "Creaking Head"
+    random_uuid: 7da93a8e-c42c-4dff-b9c6-01f659807576
+    textureCode: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTJmZmNlNDU2MWYzYjA3NjkwZjU4Y2Q2MmM2ZjJiNWY4Y2NjMjc2ZjQ0M2MyZDFkN2NmZGU0ODcwYTJiYWYwMyJ9fX0=
+    advancements:
+      - "mobheads:firstmobhead first_mob_head"
+      - "mobheads:thelegend27 creaking"
 
   #Optional skulls, because they also drop in vanilla when killed by a charged creeper.
   Zombie:
@@ -2413,6 +2424,7 @@ ListOfMobs:
           - "mobheads:wither invulnerable_wither_2"
 
 
+
 #List of all fish that are supported in this plugin.
 #You can obtain these fish by fishing. When you catch a fish, there is a chance (dropChance) that the player will also catch the corresponding fish head.
 #Instead of looting, the dropchance for fish can be increased by the "Luck of the Sea" enchantment.
@@ -2466,18 +2478,6 @@ ListOfFish:
       - "mobheads:thelegend27 pufferfish"
       - "mobheads:fish pufferfish"
       - "mobheads:watermobs pufferfish"
-  Creaking:
-    dropChance: DEFAULT
-    luckOfTheSeaBonus: DEFAULT
-    broadcastMessage: false
-    displayName: "Creaking Head"
-    random_uuid: 7da93a8e-c42c-4dff-b9c6-01f659807576
-    textureCode: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTJmZmNlNDU2MWYzYjA3NjkwZjU4Y2Q2MmM2ZjJiNWY4Y2NjMjc2ZjQ0M2MyZDFkN2NmZGU0ODcwYTJiYWYwMyJ9fX0=
-    advancements:
-      - "mobheads:firstmobhead first_mob_head"
-      - "mobheads:thelegend27 creaking"
-      - "mobheads:fish creaking"
-      - "mobheads:watermobs creaking"
 
 #Whenever a player dies by another player
 Player:

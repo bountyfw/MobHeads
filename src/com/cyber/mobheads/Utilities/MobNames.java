@@ -235,7 +235,7 @@ public enum MobNames {
 		if (entity.getType().name().equalsIgnoreCase("BOGGED")) {
 			return Bogged;
 		}
-		
+
 		switch (entity.getType()) {
 			case BAT:
 				return Bat;
