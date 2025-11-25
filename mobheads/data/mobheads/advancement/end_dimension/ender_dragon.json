@@ -1,0 +1,28 @@
+{
+    "display": {
+      "description": {
+        "text": "Obtiens sa tête.",
+        "color": "white"
+      },
+      "title": {
+        "text": "Ender Dragon",
+        "color": "white"
+      },
+      "icon": {
+        "id": "dragon_head"
+      },
+      "frame": "task"
+    },
+    "criteria": {
+        "ender_dragon": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {},
+    "requirements": [
+        [
+            "ender_dragon"
+        ]
+    ],
+    "parent": "mobheads:end_dimension/shulker"
+  }

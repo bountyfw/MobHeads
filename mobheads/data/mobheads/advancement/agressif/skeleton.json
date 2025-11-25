@@ -1,0 +1,28 @@
+{
+    "display": {
+      "description": {
+        "text": "Obtiens sa tête.",
+        "color": "white"
+      },
+      "title": {
+        "text": "Squelette",
+        "color": "white"
+      },
+      "icon": {
+        "id": "skeleton_skull"
+      },
+      "frame": "task"
+    },
+    "criteria": {
+        "skeleton": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {},
+    "requirements": [
+        [
+            "skeleton"
+        ]
+    ],
+    "parent": "mobheads:agressif/creeper"
+  }

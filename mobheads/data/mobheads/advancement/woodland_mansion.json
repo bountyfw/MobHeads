@@ -1,0 +1,72 @@
+{
+  "display": {
+    "description": {
+      "text": "Obtiens toutes les têtes d'un raid",
+      "color": "white"
+    },
+    "title": {
+      "text": "Même les vexs ? :o",
+      "color": "white"
+    },
+    "icon": {
+      "id": "totem_of_undying",
+      "tag": 0
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "vindicator": {
+      "trigger": "minecraft:impossible"
+    },
+    "vex": {
+      "trigger": "minecraft:impossible"
+    },
+    "pillager": {
+      "trigger": "minecraft:impossible"
+    },
+    "ravager": {
+      "trigger": "minecraft:impossible"
+    },
+    "witch": {
+      "trigger": "minecraft:impossible"
+    },
+    "allay": {
+      "trigger": "minecraft:impossible"
+    },
+    "evoker": {
+      "trigger": "minecraft:impossible"
+    },
+    "illusioner": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+  },
+  "requirements": [
+    [
+      "vindicator"
+    ],
+    [
+      "vex"
+    ],
+    [
+      "pillager"
+    ],
+    [
+      "ravager"
+    ],
+    [
+      "witch"
+    ],
+    [
+      "evoker"
+    ],
+    [
+      "illusioner"
+    ],
+    [
+      "allay"
+    ]
+  ],
+  "parent": "mobheads:firstmobhead"
+}

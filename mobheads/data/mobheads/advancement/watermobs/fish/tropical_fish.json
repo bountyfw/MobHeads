@@ -1,0 +1,29 @@
+{
+    "display": {
+      "description": {
+        "text": "Obtiens sa tête.",
+        "color": "white"
+      },
+      "title": {
+        "text": "Poisson Tropical",
+        "color": "white"
+      },
+      "icon": {
+        "id": "minecraft:player_head",
+			  "components": {"profile":{"id":[-98350811,-1648473201,-1522238352,-76846395],"properties":[{"name":"textures","value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTc5ZTQ4ZDgxNGFhM2JjOTg0ZThhNmZkNGZiMTcwYmEwYmI0ODkzZjRiYmViZGU1ZmRmM2Y4Zjg3MWNiMjkyZiJ9fX0"}]}}
+      },
+      "frame": "task"
+    },
+    "criteria": {
+        "tropical_fish": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {},
+    "requirements": [
+        [
+            "tropical_fish"
+        ]
+    ],
+    "parent": "mobheads:watermobs/fish/pufferfish"
+  }

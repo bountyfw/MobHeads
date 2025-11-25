@@ -1,0 +1,30 @@
+{
+    "display": {
+      "description": {
+        "text": "Obtiens sa tête.",
+        "color": "white"
+      },
+      "title": {
+        "text": "Chèvre",
+        "color": "white"
+      },
+      "icon": {
+        "id": "minecraft:player_head",
+			  "components": {"profile":{"id":[-98350811,-1648473201,-1522238352,-76846395],"properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTYyODE3MjU1ODc1NCwKICAicHJvZmlsZUlkIiA6ICJjNmE2N2QwMmY4MGM0MjhmODYyNmQ5MjhlOTNjN2FjNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJHaW92YW5uaVdpamF5YSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zZTkwY2ZjMTUzOTM2OWZkYTFkYmMzMDg4NWVmNTVlYTgxMzJjOTAwNDk0YmRjYzIyOWE3ZmJmNmQwNmFmMDUwIgogICAgfQogIH0KfQ"}]}}
+      },
+      "frame": "task"
+    },
+    "criteria": {
+      "goat": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {
+    },
+    "requirements": [
+      [
+        "goat"
+      ]
+    ],
+    "parent": "mobheads:passif/fox_snow"
+  }

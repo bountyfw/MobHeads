@@ -1,0 +1,30 @@
+{
+    "display": {
+      "description": {
+        "text": "Obtiens sa tête.",
+        "color": "white"
+      },
+      "title": {
+        "text": "Chèvre hurlante",
+        "color": "white"
+      },
+      "icon": {
+        "id": "minecraft:player_head",
+			  "components": {"profile":{"id":[-98350811,-1648473201,-1522238352,-76846395],"properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTYyODE3Mjc4ODY0NSwKICAicHJvZmlsZUlkIiA6ICJiNjM2OWQ0MzMwNTU0NGIzOWE5OTBhODYyNWY5MmEwNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJCb2JpbmhvXyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82MWMwM2RiNTI5M2JmNjE2ZmZiMmM0OGEwOGU1MDUxOTUyZDlkOTM5NmM2ZGI1ODYxYzY1NGVlZmFhZWJjZDlkIgogICAgfQogIH0KfQ"}]}}
+      },
+      "frame": "task"
+    },
+    "criteria": {
+      "screaming_goat": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {
+    },
+    "requirements": [
+      [
+        "screaming_goat"
+      ]
+    ],
+    "parent": "mobheads:passif/bee2"
+  }

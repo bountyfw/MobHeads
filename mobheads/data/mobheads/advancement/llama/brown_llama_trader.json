@@ -1,0 +1,30 @@
+{
+    "display": {
+      "description": {
+        "text": "Obtiens sa tête.",
+        "color": "white"
+      },
+      "title": {
+        "text": "Lama de marchand marron",
+        "color": "white"
+      },
+      "icon": {
+        "id": "minecraft:player_head",
+			  "components": {"profile":{"id":[-98350811,-1648473201,-1522238352,-76846395],"properties":[{"name":"textures","value":"eyJ0aW1lc3RhbXAiOjE1NzY4MDYxODQ1MzgsInByb2ZpbGVJZCI6Ijg0Zjk2ZjBmYTVkYzRlNTliZGM1OWYzYmVhMDBhNDkwIiwicHJvZmlsZU5hbWUiOiJab21iaWVfU3RyaWtlciIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mOGVkNmE1ZDcyMjQzNWRiNTE5YTA3YjJlMDJhNDQ4NzU1YWUzZDYxMDc3OTRlMDRhM2JiYWRhMThiNjYwMWMwIn19fQ"}]}}
+      },
+      "frame": "task",
+      "hidden": false
+    },
+    "criteria": {
+        "brown_llama_trader": {
+            "trigger": "minecraft:impossible"
+          }
+    },
+    "rewards": {},
+    "requirements": [
+        [
+            "brown_llama_trader"
+          ]
+    ],
+    "parent": "mobheads:llama/creamy_llama_trader"
+  }

@@ -1,0 +1,144 @@
+{
+  "display": {
+    "description": {
+      "text": "Obtiens toutes les têtes des créatures aquatiques",
+      "color": "white"
+    },
+    "title": {
+      "text": "Dieu de l'eau !",
+      "color": "white"
+    },
+    "icon": {
+      "id": "trident",
+      "tag": 0
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "cod": {
+      "trigger": "minecraft:impossible"
+    },
+    "dolphin": {
+      "trigger": "minecraft:impossible"
+    },
+    "drowned": {
+      "trigger": "minecraft:impossible"
+    },
+    "elder_guardian": {
+      "trigger": "minecraft:impossible"
+    },
+    "guardian": {
+      "trigger": "minecraft:impossible"
+    },
+    "pufferfish": {
+      "trigger": "minecraft:impossible"
+    },
+    "salmon": {
+      "trigger": "minecraft:impossible"
+    },
+    "squid": {
+      "trigger": "minecraft:impossible"
+    },
+    "tropical_fish": {
+      "trigger": "minecraft:impossible"
+    },
+    "turtle": {
+      "trigger": "minecraft:impossible"
+    },
+    "wild_axolotl": {
+      "trigger": "minecraft:impossible"
+    },
+    "lucy_axolotl": {
+      "trigger": "minecraft:impossible"
+    },
+    "gold_axolotl": {
+      "trigger": "minecraft:impossible"
+    },
+    "cyan_axolotl": {
+      "trigger": "minecraft:impossible"
+    },
+    "blue_axolotl": {
+      "trigger": "minecraft:impossible"
+    },
+    "glow_squid": {
+      "trigger": "minecraft:impossible"
+    },
+    "tadpole": {
+      "trigger": "minecraft:impossible"
+    },
+    "temperate_frog": {
+      "trigger": "minecraft:impossible"
+    },
+    "warm_frog": {
+      "trigger": "minecraft:impossible"
+    },
+    "cold_frog": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+  },
+  "requirements": [
+    [
+      "cod"
+    ],
+    [
+      "dolphin"
+    ],
+    [
+      "drowned"
+    ],
+    [
+      "elder_guardian"
+    ],
+    [
+      "guardian"
+    ],
+    [
+      "pufferfish"
+    ],
+    [
+      "salmon"
+    ],
+    [
+      "squid"
+    ],
+    [
+      "tropical_fish"
+    ],
+    [
+      "turtle"
+    ],
+    [
+      "wild_axolotl"
+    ],
+    [
+      "lucy_axolotl"
+    ],
+    [
+      "gold_axolotl"
+    ],
+    [
+      "cyan_axolotl"
+    ],
+    [
+      "blue_axolotl"
+    ],
+    [
+      "glow_squid"
+    ],
+    [
+      "tadpole"
+    ],
+    [
+      "temperate_frog"
+    ],
+    [
+      "warm_frog"
+    ],
+    [
+      "cold_frog"
+    ]
+  ],
+  "parent": "mobheads:firstmobhead"
+}

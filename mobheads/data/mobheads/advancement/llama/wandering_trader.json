@@ -1,0 +1,29 @@
+{
+    "display": {
+      "description": {
+        "text": "Obtiens sa tête.",
+        "color": "white"
+      },
+      "title": {
+        "text": "Marchand ambulant",
+        "color": "white"
+      },
+      "icon": {
+        "id": "minecraft:player_head",
+			  "components": {"profile":{"id":[-98350811,-1648473201,-1522238352,-76846395],"properties":[{"name":"textures","value":"eyJ0aW1lc3RhbXAiOjE1NjQ2MTM0NTM4MDIsInByb2ZpbGVJZCI6Ijg0Zjk2ZjBmYTVkYzRlNTliZGM1OWYzYmVhMDBhNDkwIiwicHJvZmlsZU5hbWUiOiJab21iaWVfU3RyaWtlciIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jZWU4MGE1ZWJhYjFlNmFjOGM4YjUzMzM0YTYwOWVjODkzMjg0MmZjZDUwNDlkYzJlMjFkYzM1NjA0ZWRjMjVkIn19fQ"}]}}
+      },
+      "frame": "task"
+    },
+    "criteria": {
+        "wandering_trader": {
+            "trigger": "minecraft:impossible"
+          }
+    },
+    "rewards": {},
+    "requirements": [
+        [
+            "wandering_trader"
+          ]
+    ],
+    "parent": "mobheads:llama/brown_llama_trader"
+  }

@@ -1,0 +1,29 @@
+{
+    "display": {
+      "description": {
+        "text": "Obtiens sa tête.",
+        "color": "white"
+      },
+      "title": {
+        "text": "Wither Invulnerable 1",
+        "color": "white"
+      },
+      "icon": {
+        "id": "minecraft:player_head",
+			  "components": {"profile":{"id":[-98350811,-1648473201,-1522238352,-76846395],"properties":[{"name":"textures","value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2U0ZjQ5NTM1YTI3NmFhY2M0ZGM4NDEzM2JmZTgxYmU1ZjJhNDc5OWE0YzA0ZDlhNGRkYjcyZDgxOWVjMmIyYiJ9fX0"}]}}
+      },
+      "frame": "task"
+    },
+    "criteria": {
+        "invulnerable_wither_1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {},
+    "requirements": [
+        [
+            "invulnerable_wither_1"
+        ]
+    ],
+    "parent": "mobheads:wither/wither_2"
+  }

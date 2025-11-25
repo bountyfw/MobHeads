@@ -1,0 +1,30 @@
+{
+    "display": {
+      "description": {
+        "text": "Obtiens sa tête.",
+        "color": "white"
+      },
+      "title": {
+        "text": "Champimeuh marron",
+        "color": "white"
+      },
+      "icon": {
+        "id": "minecraft:player_head",
+			  "components": {"profile":{"id":[-98350811,-1648473201,-1522238352,-76846395],"properties":[{"name":"textures","value":"eyJ0aW1lc3RhbXAiOjE1NjQ2MTQ2MzA5MDksInByb2ZpbGVJZCI6Ijg0Zjk2ZjBmYTVkYzRlNTliZGM1OWYzYmVhMDBhNDkwIiwicHJvZmlsZU5hbWUiOiJab21iaWVfU3RyaWtlciIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yYjg5YTZiMTdlMzRjNjBmMTE4ODlhMTBiOGY4NTkxNjk5YWRlNGEzY2I1NmZiNjc3ZWFkMzE4YmY1NGJhNDNjIn19fQ"}]}}
+      },
+      "frame": "task"
+    },
+    "criteria": {
+      "mooshroom_brown": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {
+    },
+    "requirements": [
+      [
+        "mooshroom_brown"
+      ]
+    ],
+    "parent": "mobheads:passif/mooshroom"
+  }

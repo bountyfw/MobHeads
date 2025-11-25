@@ -1,0 +1,30 @@
+{
+    "display": {
+      "description": {
+        "text": "Obtiens sa tête.",
+        "color": "white"
+      },
+      "title": {
+        "text": "Cheval Gris",
+        "color": "white"
+      },
+      "icon": {
+        "id": "minecraft:player_head",
+			  "components": {"profile":{"id":[-98350811,-1648473201,-1522238352,-76846395],"properties":[{"name":"textures","value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDEzODEzZGQ0NWVkMGVmODM4NDQ4Y2Y2ZjYzMWMxNTdjMjNmOTY1MGM1YWU0NTFlOTc4YTUzMzgzMzEyZmUifX19"}]}}
+      },
+      "frame": "task",
+      "hidden": false
+    },
+    "criteria": {
+        "gray_horse": {
+            "trigger": "minecraft:impossible"
+          }
+    },
+    "rewards": {},
+    "requirements": [
+        [
+            "gray_horse"
+          ]
+    ],
+    "parent": "mobheads:horse/white_horse"
+  }

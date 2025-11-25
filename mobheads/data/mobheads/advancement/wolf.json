@@ -1,0 +1,78 @@
+{
+  "display": {
+    "description": {
+      "text": "Obtiens toutes les têtes de loups",
+      "color": "white"
+    },
+    "title": {
+      "text": "Désormais Bounty'nvincibles !",
+      "color": "white"
+    },
+    "icon": {
+      "id": "wolf_armor",
+      "tag": 0
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "ashen_wolf": {
+      "trigger": "minecraft:impossible"
+    },
+    "black_wolf": {
+      "trigger": "minecraft:impossible"
+    },
+    "chestnut_wolf": {
+      "trigger": "minecraft:impossible"
+    },
+    "pale_wolf": {
+      "trigger": "minecraft:impossible"
+    },
+    "rusty_wolf": {
+      "trigger": "minecraft:impossible"
+    },
+    "snowy_wolf": {
+      "trigger": "minecraft:impossible"
+    },
+    "striped_wolf": {
+      "trigger": "minecraft:impossible"
+    },
+    "woods_wolf": {
+      "trigger": "minecraft:impossible"
+    },
+    "spotted_wolf": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {},
+  "requirements": [
+    [
+      "ashen_wolf"
+    ],
+    [
+      "black_wolf"
+    ],
+    [
+      "chestnut_wolf"
+    ],
+    [
+      "pale_wolf"
+    ],
+    [
+      "rusty_wolf"
+    ],
+    [
+      "snowy_wolf"
+    ],
+    [
+      "striped_wolf"
+    ],
+    [
+      "woods_wolf"
+    ],
+    [
+      "spotted_wolf"
+    ]
+  ],
+  
+  "parent": "mobheads:firstmobhead"
+}

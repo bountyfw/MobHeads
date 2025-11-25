@@ -1,0 +1,203 @@
+{
+  "display": {
+    "description": {
+      "text": "Obtiens toutes les têtes de villageois",
+      "color": "white"
+    },
+    "title": {
+      "text": "Tueur en série !",
+      "color": "white"
+    },
+    "icon": {
+      "id": "emerald",
+      "tag": 0
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "villager": {
+      "trigger": "minecraft:impossible"
+    },
+    "villager1": {
+      "trigger": "minecraft:impossible"
+    },
+    "villager2": {
+      "trigger": "minecraft:impossible"
+    },
+    "villager3": {
+      "trigger": "minecraft:impossible"
+    },
+    "villager4": {
+      "trigger": "minecraft:impossible"
+    },
+    "villager5": {
+      "trigger": "minecraft:impossible"
+    },
+    "villager6": {
+      "trigger": "minecraft:impossible"
+    },
+    "villager7": {
+      "trigger": "minecraft:impossible"
+    },
+    "villager8": {
+      "trigger": "minecraft:impossible"
+    },
+    "villager9": {
+      "trigger": "minecraft:impossible"
+    },
+    "villager10": {
+      "trigger": "minecraft:impossible"
+    },
+    "villager11": {
+      "trigger": "minecraft:impossible"
+    },
+    "villager12": {
+      "trigger": "minecraft:impossible"
+    },
+    "villager13": {
+      "trigger": "minecraft:impossible"
+    },
+    "iron_golem": {
+      "trigger": "minecraft:impossible"
+    },
+    "zombie_butcher_villager": {
+      "trigger": "minecraft:impossible"
+    },
+    "zombie_cleric_villager": {
+      "trigger": "minecraft:impossible"
+    },
+    "zombie_farmer_villager": {
+      "trigger": "minecraft:impossible"
+    },
+    "zombie_librarian_villager": {
+      "trigger": "minecraft:impossible"
+    },
+    "zombie_nitwit_villager": {
+      "trigger": "minecraft:impossible"
+    },
+    "zombie_smith_villager": {
+      "trigger": "minecraft:impossible"
+    },
+    "zombie_villager": {
+      "trigger": "minecraft:impossible"
+    },
+    "zombie_fisherman_villager": {
+      "trigger": "minecraft:impossible"
+    },
+    "zombie_mason_villager": {
+      "trigger": "minecraft:impossible"
+    },
+    "zombie_armorer_villager": {
+      "trigger": "minecraft:impossible"
+    },
+    "zombie_cartographer_villager": {
+      "trigger": "minecraft:impossible"
+    },
+    "zombie_fletcher_villager": {
+      "trigger": "minecraft:impossible"
+    },
+    "zombie_shepherd_villager": {
+      "trigger": "minecraft:impossible"
+    },
+    "zombie_leatherworker_villager": {
+      "trigger": "minecraft:impossible"
+    },
+    "zombie_weaponsmith_villager": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {},
+  "requirements": [
+    [
+      "villager"
+    ],
+    [
+      "villager1"
+    ],
+    [
+      "villager2"
+    ],
+    [
+      "villager3"
+    ],
+    [
+      "villager4"
+    ],
+    [
+      "villager5"
+    ],
+    [
+      "villager6"
+    ],
+    [
+      "villager7"
+    ],
+    [
+      "villager8"
+    ],
+    [
+      "villager9"
+    ],
+    [
+      "villager10"
+    ],
+    [
+      "villager11"
+    ],
+    [
+      "villager12"
+    ],
+    [
+      "villager13"
+    ],
+    [
+      "iron_golem"
+    ],
+    [
+      "zombie_butcher_villager"
+    ],
+    [
+      "zombie_cleric_villager"
+    ],
+    [
+      "zombie_farmer_villager"
+    ],
+    [
+      "zombie_librarian_villager"
+    ],
+    [
+      "zombie_nitwit_villager"
+    ],
+    [
+      "zombie_smith_villager"
+    ],
+    [
+      "zombie_villager"
+    ],
+    [
+      "zombie_fisherman_villager"
+    ],
+    [
+      "zombie_mason_villager"
+    ],
+    [
+      "zombie_armorer_villager"
+    ],
+    [
+      "zombie_cartographer_villager"
+    ],
+    [
+      "zombie_fletcher_villager"
+    ],
+    [
+      "zombie_shepherd_villager"
+    ],
+    [
+      "zombie_leatherworker_villager"
+    ],
+    [
+      "zombie_weaponsmith_villager"
+    ]
+  ],
+  "parent": "mobheads:firstmobhead"
+}

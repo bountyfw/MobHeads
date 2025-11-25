@@ -1,0 +1,53 @@
+{
+  "display": {
+    "description": {
+      "text": "Obtiens toutes les têtes de Perroquets",
+      "color": "white"
+    },
+    "title": {
+      "text": "Un peu bruyant..",
+      "color": "white"
+    },
+    "icon": {
+      "id": "feather"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "red_parrot": {
+      "trigger": "minecraft:impossible"
+    },
+    "gray_parrot": {
+      "trigger": "minecraft:impossible"
+    },
+    "green_parrot": {
+      "trigger": "minecraft:impossible"
+    },
+    "blue_parrot": {
+      "trigger": "minecraft:impossible"
+    },
+    "cyan_parrot": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+  },
+  "requirements": [
+    [
+      "red_parrot"
+    ],
+    [
+      "gray_parrot"
+    ],
+    [
+      "green_parrot"
+    ],
+    [
+      "blue_parrot"
+    ],
+    [
+      "cyan_parrot"
+    ]
+  ],
+  "parent": "mobheads:firstmobhead"
+}

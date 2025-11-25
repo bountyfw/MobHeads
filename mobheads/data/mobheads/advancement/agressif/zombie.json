@@ -1,0 +1,28 @@
+{
+    "display": {
+      "description": {
+        "text": "Obtiens sa tête.",
+        "color": "white"
+      },
+      "title": {
+        "text": "Zombie",
+        "color": "white"
+      },
+      "icon": {
+        "id": "zombie_head"
+      },
+      "frame": "task"
+    },
+    "criteria": {
+        "zombie": {
+            "trigger": "minecraft:impossible"
+          }
+    },
+    "rewards": {},
+    "requirements": [
+        [
+            "zombie"
+          ]
+    ],
+    "parent": "mobheads:agressif"
+  }

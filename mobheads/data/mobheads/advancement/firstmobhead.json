@@ -1,0 +1,32 @@
+{
+  "display": {
+    "description": {
+      "text": "Obtiens ta premièressss tête",
+      "color": "white"
+    },
+    "title": {
+      "text": "Première tête obtenue !",
+      "color": "white"
+    },
+    "icon": {
+      "id": "creeper_head",
+      "tag": 0
+    }
+  },
+  "criteria": {
+    "first_mob_head": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+  },
+  "requirements": [
+    [
+      "first_mob_head"
+    ]
+  ],
+  "parent": "mobheads:root",
+  "filename": 3,
+  "parent-count": 1,
+  "parent-type": "child"
+}

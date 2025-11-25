@@ -1,0 +1,84 @@
+{
+  "display": {
+    "description": {
+      "text": "Obtiens toutes les têtes de chevaux",
+      "color": "white"
+    },
+    "title": {
+      "text": "T'es maintenant un Cowboy",
+      "color": "white"
+    },
+    "icon": {
+      "id": "saddle",
+      "tag": 0
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "skeleton_horse": {
+      "trigger": "minecraft:impossible"
+    },
+    "white_horse": {
+      "trigger": "minecraft:impossible"
+    },
+    "gray_horse": {
+      "trigger": "minecraft:impossible"
+    },
+    "dark_brown_horse": {
+      "trigger": "minecraft:impossible"
+    },
+    "creamy_horse": {
+      "trigger": "minecraft:impossible"
+    },
+    "chestnut_horse": {
+      "trigger": "minecraft:impossible"
+    },
+    "brown_horse": {
+      "trigger": "minecraft:impossible"
+    },
+    "black_horse": {
+      "trigger": "minecraft:impossible"
+    },
+    "donkey": {
+      "trigger": "minecraft:impossible"
+    },
+    "mule": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {},
+  "requirements": [
+    [
+      "skeleton_horse"
+    ],
+    [
+      "white_horse"
+    ],
+    [
+      "gray_horse"
+    ],
+    [
+      "dark_brown_horse"
+    ],
+    [
+      "creamy_horse"
+    ],
+    [
+      "chestnut_horse"
+    ],
+    [
+      "brown_horse"
+    ],
+    [
+      "black_horse"
+    ],
+    [
+      "donkey"
+    ],
+    [
+      "mule"
+    ]
+  ],
+
+  "parent": "mobheads:firstmobhead"
+}

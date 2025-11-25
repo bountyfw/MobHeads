@@ -1,0 +1,8 @@
+{
+    "criteria":{
+       "end":{
+          "trigger":"minecraft:location"
+       }
+    },
+    "parent": "mobheads:watermobs/ocean_monument/elder_guardian"
+ }

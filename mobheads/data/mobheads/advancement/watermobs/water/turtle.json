@@ -1,0 +1,29 @@
+{
+    "display": {
+      "description": {
+        "text": "Obtiens sa tête.",
+        "color": "white"
+      },
+      "title": {
+        "text": "Tortue",
+        "color": "white"
+      },
+      "icon": {
+        "id": "minecraft:player_head",
+			  "components": {"profile":{"id":[-98350811,-1648473201,-1522238352,-76846395],"properties":[{"name":"textures","value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMGE0MDUwZTdhYWNjNDUzOTIwMjY1OGZkYzMzOWRkMTgyZDdlMzIyZjlmYmNjNGQ1Zjk5YjU3MThhIn19fQ"}]}}
+      },
+      "frame": "task"
+    },
+    "criteria": {
+        "turtle": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {},
+    "requirements": [
+        [
+            "turtle"
+        ]
+    ],
+    "parent": "mobheads:watermobs/water/drowned"
+  }

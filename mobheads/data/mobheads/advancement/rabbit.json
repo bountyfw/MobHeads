@@ -1,0 +1,71 @@
+{
+  "display": {
+    "description": {
+      "text": "Obtiens toutes les têtes de lapins",
+      "color": "white"
+    },
+    "title": {
+      "text": "Lapin pas Laping..",
+      "color": "white"
+    },
+    "icon": {
+      "id": "rabbit_foot",
+      "tag": 0
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "black_rabbit": {
+      "trigger": "minecraft:impossible"
+    },
+    "black_and_white_rabbit": {
+      "trigger": "minecraft:impossible"
+    },
+    "brown_rabbit": {
+      "trigger": "minecraft:impossible"
+    },
+    "gold_rabbit": {
+      "trigger": "minecraft:impossible"
+    },
+    "salt_and_pepper_rabbit": {
+      "trigger": "minecraft:impossible"
+    },
+    "toast_rabbit": {
+      "trigger": "minecraft:impossible"
+    },
+    "white_rabbit": {
+      "trigger": "minecraft:impossible"
+    },
+    "the_killer_bunny": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {},
+  "requirements": [
+    [
+      "black_rabbit"
+    ],
+    [
+      "black_and_white_rabbit"
+    ],
+    [
+      "brown_rabbit"
+    ],
+    [
+      "gold_rabbit"
+    ],
+    [
+      "salt_and_pepper_rabbit"
+    ],
+    [
+      "toast_rabbit"
+    ],
+    [
+      "white_rabbit"
+    ],
+    [
+      "the_killer_bunny"
+    ]
+  ],
+  "parent": "mobheads:firstmobhead"
+} 

@@ -1,0 +1,29 @@
+{
+    "display": {
+      "description": {
+        "text": "Obtiens sa tête.",
+        "color": "white"
+      },
+      "title": {
+        "text": "Axolotl bleu",
+        "color": "white"
+      },
+      "icon": {
+        "id": "minecraft:player_head",
+			  "components": {"profile":{"id":[-98350811,-1648473201,-1522238352,-76846395],"properties":[{"name":"textures","value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWVmNjMwNjU3ZTRhMjc5YjBiN2VhMGY2NzkwNTkyMGFmMzY1ZjljODRjYTlmMzRhMzJiNTMzNDNmZjYyOTkxMCJ9fX0"}]}}
+      },
+      "frame": "task"
+    },
+    "criteria": {
+        "blue_axolotl": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {},
+    "requirements": [
+        [
+            "blue_axolotl"
+        ]
+    ],
+    "parent": "mobheads:watermobs/axolotl/cyan_axolotl"
+}

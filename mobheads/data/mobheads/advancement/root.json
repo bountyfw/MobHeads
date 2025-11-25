@@ -1,0 +1,31 @@
+{
+  "display": {
+    "description": {
+      "text": "Qu'on lui coupe la tête !",
+      "color": "white"
+    },
+    "title": {
+      "text": "Collection",
+      "color": "white"
+    },
+    "icon": {
+      "id": "parrot_spawn_egg",
+      "tag": 0
+    },
+    "background": "minecraft:textures/block/oak_log.png",
+    "announce_to_chat": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "instant": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+  },
+  "requirements": [
+    [
+      "instant"
+    ]
+  ]
+}

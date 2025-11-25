@@ -1,0 +1,65 @@
+{
+  "display": {
+    "description": {
+      "text": "Obtiens toutes les têtes de pandas",
+      "color": "white"
+    },
+    "title": {
+      "text": "♫♪ Pandi-Panda.. ♫♪",
+      "color": "white"
+    },
+    "icon": {
+      "id": "bamboo",
+      "tag": 0
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "panda_agressive": {
+      "trigger": "minecraft:impossible"
+    },
+    "panda_brown": {
+      "trigger": "minecraft:impossible"
+    },
+    "panda_lazy": {
+      "trigger": "minecraft:impossible"
+    },
+    "panda_normal": {
+      "trigger": "minecraft:impossible"
+    },
+    "panda_playful": {
+      "trigger": "minecraft:impossible"
+    },
+    "panda_weak": {
+      "trigger": "minecraft:impossible"
+    },
+    "panda_worried": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {},
+  "requirements": [
+    [
+      "panda_agressive"
+    ],
+    [
+      "panda_brown"
+    ],
+    [
+      "panda_lazy"
+    ],
+    [
+      "panda_normal"
+    ],
+    [
+      "panda_playful"
+    ],
+    [
+      "panda_weak"
+    ],
+    [
+      "panda_worried"
+    ]
+  ],
+  "parent": "mobheads:firstmobhead"
+}

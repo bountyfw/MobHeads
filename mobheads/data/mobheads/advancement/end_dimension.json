@@ -1,0 +1,47 @@
+{
+    "display": {
+      "description": {
+        "text": "Obtiens toutes les têtes de l'End",
+        "color": "white"
+      },
+      "title": {
+        "text": "L'End collectionné !",
+        "color": "white"
+      },
+      "icon": {
+        "id": "end_stone",
+        "tag": 0
+      },
+      "frame": "goal"
+    },
+    "criteria": {
+      "enderman": {
+        "trigger": "minecraft:impossible"
+      },
+      "endermite": {
+        "trigger": "minecraft:impossible"
+      },
+      "ender_dragon": {
+        "trigger": "minecraft:impossible"
+      },
+      "shulker": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {},
+    "requirements": [
+      [
+        "enderman"
+      ],
+      [
+        "endermite"
+      ],
+      [
+        "ender_dragon"
+      ],
+      [
+        "shulker"
+      ]
+    ],
+    "parent": "mobheads:firstmobhead"
+  }

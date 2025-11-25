@@ -1,0 +1,29 @@
+{
+    "display": {
+      "description": {
+        "text": "Obtiens sa tête.",
+        "color": "white"
+      },
+      "title": {
+        "text": "Piglin Brute",
+        "color": "white"
+      },
+      "icon": {
+        "id": "minecraft:player_head",
+			  "components": {"profile":{"id":[-98350811,-1648473201,-1522238352,-76846395],"properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTYwMTQ5MTEwMjYyNywKICAicHJvZmlsZUlkIiA6ICI4NGY5NmYwZmE1ZGM0ZTU5YmRjNTlmM2JlYTAwYTQ5MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJab21iaWVfU3RyaWtlciIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81OTY1YWY4OWM4ZTQzYjI1MDc5OGQ0Njk4M2E0Y2QxY2U0M2U5MDk4OTJiYmNiMmFlZTNkYzAxN2Q2MzljODYiCiAgICB9CiAgfQp9"}]}}
+      },
+      "frame": "task"
+    },
+    "criteria": {
+        "piglin_brute": {
+            "trigger": "minecraft:impossible"
+          }
+    },
+    "rewards": {},
+    "requirements": [
+        [
+            "piglin_brute"
+        ]
+    ],
+    "parent": "mobheads:nether_dimension/piglin"
+  }

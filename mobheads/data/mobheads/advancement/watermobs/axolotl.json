@@ -1,0 +1,53 @@
+{
+    "display": {
+      "description": {
+        "text": "Obtiens toutes les têtes d'axolotl",
+        "color": "white"
+      },
+      "title": {
+        "text": "aka La salamandre mexicaine",
+        "color": "white"
+      },
+      "icon": {
+        "id": "axolotl_bucket",
+        "tag": 0
+      },
+      "frame": "goal"
+    },
+    "criteria": {
+        "wild_axolotl": {
+            "trigger": "minecraft:impossible"
+        },
+        "lucy_axolotl": {
+            "trigger": "minecraft:impossible"
+        },
+        "gold_axolotl": {
+            "trigger": "minecraft:impossible"
+        },
+        "cyan_axolotl": {
+            "trigger": "minecraft:impossible"
+        },
+        "blue_axolotl": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {},
+    "requirements": [
+        [
+            "wild_axolotl"
+        ],
+        [
+            "lucy_axolotl"
+        ],
+        [
+            "gold_axolotl"
+        ],
+        [
+            "cyan_axolotl"
+        ],
+        [
+            "blue_axolotl"
+        ]
+    ],
+    "parent": "mobheads:watermobs"
+  }

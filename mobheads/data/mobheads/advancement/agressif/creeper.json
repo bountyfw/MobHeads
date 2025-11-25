@@ -1,0 +1,28 @@
+{
+    "display": {
+      "description": {
+        "text": "Obtiens sa tête.",
+        "color": "white"
+      },
+      "title": {
+        "text": "Creeper",
+        "color": "white"
+      },
+      "icon": {
+        "id": "creeper_head"
+      },
+      "frame": "task"
+    },
+    "criteria": {
+        "creeper": {
+            "trigger": "minecraft:impossible"
+          }
+    },
+    "rewards": {},
+    "requirements": [
+        [
+            "creeper"
+          ]
+    ],
+    "parent": "mobheads:agressif/spider"
+  }

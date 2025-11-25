@@ -1,0 +1,47 @@
+{
+  "display": {
+    "description": {
+      "text": "Obtiens les 4 têtes du Wither Boss",
+      "color": "white"
+    },
+    "title": {
+      "text": "Il n'y a pas que 3 têtes ?",
+      "color": "white"
+    },
+    "icon": {
+      "id": "nether_star",
+      "tag": 0
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "wither_1": {
+      "trigger": "minecraft:impossible"
+    },
+    "wither_2": {
+      "trigger": "minecraft:impossible"
+    },
+    "invulnerable_wither_2": {
+      "trigger": "minecraft:impossible"
+    },
+    "invulnerable_wither_1": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {},
+  "requirements": [
+    [
+      "wither_1"
+    ],
+    [
+      "wither_2"
+    ],
+    [
+      "invulnerable_wither_2"
+    ],
+    [
+      "invulnerable_wither_1"
+    ]
+  ],
+  "parent": "mobheads:firstmobhead"
+}

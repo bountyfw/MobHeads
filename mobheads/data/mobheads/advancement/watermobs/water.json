@@ -1,0 +1,53 @@
+{
+    "display": {
+      "description": {
+        "text": "Obtiens toutes les têtes des creatures marine",
+        "color": "white"
+      },
+      "title": {
+        "text": "Quelle diversité marine !",
+        "color": "white"
+      },
+      "icon": {
+        "id": "seagrass",
+        "tag": 0
+      },
+      "frame": "goal"
+    },
+    "criteria": {
+        "dolphin": {
+          "trigger": "minecraft:impossible"
+        },
+        "drowned": {
+          "trigger": "minecraft:impossible"
+        },
+        "turtle": {
+          "trigger": "minecraft:impossible"
+        },
+        "squid": {
+          "trigger": "minecraft:impossible"
+        },
+        "glow_squid": {
+          "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {},
+    "requirements": [
+        [
+          "dolphin"
+        ],
+        [
+          "drowned"
+        ],
+        [
+          "turtle"
+        ],
+        [
+          "squid"
+        ],
+        [
+          "glow_squid"
+        ]
+    ],
+    "parent": "mobheads:watermobs"
+  }

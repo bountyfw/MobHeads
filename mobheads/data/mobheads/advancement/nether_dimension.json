@@ -1,0 +1,83 @@
+{
+  "display": {
+    "description": {
+      "text": "Obtiens toutes les têtes du Nether",
+      "color": "white"
+    },
+    "title": {
+      "text": "Ça brule !",
+      "color": "white"
+    },
+    "icon": {
+      "id": "netherrack",
+      "tag": 0
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "piglin": {
+      "trigger": "minecraft:impossible"
+    },
+    "piglin_brute": {
+      "trigger": "minecraft:impossible"
+    },	
+    "hoglin": {
+      "trigger": "minecraft:impossible"
+    },	
+    "striderhot": {
+      "trigger": "minecraft:impossible"
+    },	
+    "stridercold": {
+      "trigger": "minecraft:impossible"
+    },	
+    "zombie_pigman": {
+      "trigger": "minecraft:impossible"
+    },
+    "ghast": {
+      "trigger": "minecraft:impossible"
+    },
+    "blaze": {
+      "trigger": "minecraft:impossible"
+    },
+    "magma_cube": {
+      "trigger": "minecraft:impossible"
+    },
+    "wither_skeleton": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {},
+  "requirements": [
+    [
+      "piglin"
+    ],	
+    [
+      "piglin_brute"
+    ],	
+    [
+      "hoglin"
+    ],	
+    [
+      "striderhot"
+    ],	
+    [
+      "stridercold"
+    ],	
+    [
+      "zombie_pigman"
+    ],
+    [
+      "ghast"
+    ],
+    [
+      "blaze"
+    ],
+    [
+      "magma_cube"
+    ],
+    [
+      "wither_skeleton"
+    ]
+  ],
+  "parent": "mobheads:firstmobhead"
+}

@@ -1,0 +1,47 @@
+{
+    "display": {
+      "description": {
+        "text": "Obtiens toutes les têtes de grenouilles",
+        "color": "white"
+      },
+      "title": {
+        "text": "Graok",
+        "color": "white"
+      },
+      "icon": {
+        "id": "tadpole_bucket",
+        "tag": 0
+      },
+      "frame": "goal"
+    },
+    "criteria": {
+      "tadpole": {
+        "trigger": "minecraft:impossible"
+      },
+      "temperate_frog": {
+        "trigger": "minecraft:impossible"
+      },
+      "warm_frog": {
+        "trigger": "minecraft:impossible"
+      },
+      "cold_frog": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {},
+    "requirements": [
+      [
+        "tadpole"
+      ],
+      [
+        "temperate_frog"
+      ],
+      [
+        "warm_frog"
+      ],
+      [
+        "cold_frog"
+      ]
+    ],
+    "parent": "mobheads:watermobs"
+  }

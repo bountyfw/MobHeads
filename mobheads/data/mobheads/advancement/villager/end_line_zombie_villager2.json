@@ -1,0 +1,11 @@
+{
+    "criteria":{
+       "end":{
+          "trigger":"minecraft:location"
+       }
+    },
+    "parent": "mobheads:villager/zombie_weaponsmith_villager"
+ }
+
+
+ 

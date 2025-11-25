@@ -1,0 +1,29 @@
+{
+    "display": {
+      "description": {
+        "text": "Obtiens sa tête.",
+        "color": "white"
+      },
+      "title": {
+        "text": "Zombie Villageois Tanneur",
+        "color": "white"
+      },
+      "icon": {
+        "id": "minecraft:player_head",
+			  "components": {"profile":{"id":[-98350811,-1648473201,-1522238352,-76846395],"properties":[{"name":"textures","value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWIyMzg4YjIzZGRkNmE5YTU3NzZmZjJlOGNhNTViNGVmZTMwOTBjYWFmOTY3YzIyNzY5YzU3NmIwYTQwYjg4NSJ9fX0"}]}}
+      },
+      "frame": "task"
+    },
+    "criteria": {
+        "zombie_leatherworker_villager": {
+            "trigger": "minecraft:impossible"
+          }
+    },
+    "rewards": {},
+    "requirements": [
+        [
+            "zombie_leatherworker_villager"
+          ]
+    ],
+    "parent": "mobheads:villager/zombie_shepherd_villager"
+  }

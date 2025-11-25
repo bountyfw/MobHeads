@@ -1,0 +1,28 @@
+{
+    "display": {
+      "description": {
+        "text": "Obtiens sa tête.",
+        "color": "white"
+      },
+      "title": {
+        "text": "Wither squelette",
+        "color": "white"
+      },
+      "icon": {
+        "id": "wither_skeleton_skull"
+      },
+      "frame": "task"
+    },
+    "criteria": {
+        "wither_skeleton": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {},
+    "requirements": [
+        [
+            "wither_skeleton"
+        ]
+    ],
+    "parent": "mobheads:nether_dimension/stridercold"
+  }

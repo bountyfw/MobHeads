@@ -1,0 +1,35 @@
+{
+  "display": {
+    "description": {
+      "text": "Obtiens toutes les têtes des monstres marins",
+      "color": "white"
+    },
+    "title": {
+      "text": "Monument sous-marin",
+      "color": "white"
+    },
+    "icon": {
+      "id": "prismarine",
+      "tag": 0
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "guardian": {
+      "trigger": "minecraft:impossible"
+    },
+    "elder_guardian": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {},
+  "requirements": [
+    [
+      "guardian"
+    ],
+    [
+      "elder_guardian"
+    ]
+  ],
+  "parent": "mobheads:watermobs"
+}

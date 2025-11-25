@@ -1,0 +1,125 @@
+{
+    "display": {
+      "description": {
+        "text": "Obtiens toutes les têtes des mobs Passifs",
+        "color": "white"
+      },
+      "title": {
+        "text": "Gandhi vous a donc rien appris",
+        "color": "white"
+      },
+      "icon": {
+        "id": "wheat"
+      },
+      "frame": "goal"
+    },
+    "criteria": {
+      "bat": {
+        "trigger": "minecraft:impossible"
+      },
+      "cow": {
+        "trigger": "minecraft:impossible"
+      },
+      "mooshroom": {
+        "trigger": "minecraft:impossible"
+      },
+      "mooshroom_brown": {
+        "trigger": "minecraft:impossible"
+      },
+      "chicken": {
+        "trigger": "minecraft:impossible"
+      },
+      "pig": {
+        "trigger": "minecraft:impossible"
+      },
+      "polar_bear": {
+        "trigger": "minecraft:impossible"
+      },
+      "bee1": {
+        "trigger": "minecraft:impossible"
+      },
+      "bee2": {
+        "trigger": "minecraft:impossible"
+      },
+      "snow_golem": {
+        "trigger": "minecraft:impossible"
+      },
+      "fox": {
+        "trigger": "minecraft:impossible"
+      },
+      "fox_snow": {
+        "trigger": "minecraft:impossible"
+      },
+      "goat": {
+        "trigger": "minecraft:impossible"
+      },
+      "screaming_goat": {
+        "trigger": "minecraft:impossible"
+      },
+      "camel": {
+        "trigger": "minecraft:impossible"
+      },
+      "armadillo": {
+        "trigger":"minecraft:impossible"
+      },
+      "sniffer": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {
+    },
+    "requirements": [
+      [
+        "bat"
+      ],
+      [
+        "cow"
+      ],
+      [
+        "mooshroom"
+      ],
+      [
+        "mooshroom_brown"
+      ],
+      [
+        "chicken"
+      ],
+      [
+        "pig"
+      ],
+      [
+        "polar_bear"
+      ],
+      [
+        "bee1"
+      ],
+      [
+        "bee2"
+      ],
+      [
+        "snow_golem"
+      ],
+      [
+        "fox"
+      ],
+      [
+        "fox_snow"
+      ],
+      [
+        "goat"
+      ],
+      [
+        "screaming_goat"
+      ],
+      [
+        "camel"
+      ],
+      [
+        "armadillo"
+      ],
+      [
+        "sniffer"
+      ]
+    ],
+    "parent": "mobheads:firstmobhead"
+  }

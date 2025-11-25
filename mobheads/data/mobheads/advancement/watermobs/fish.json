@@ -1,0 +1,47 @@
+{
+  "display": {
+    "description": {
+      "text": "Obtiens toutes les têtes de poissons",
+      "color": "white"
+    },
+    "title": {
+      "text": "Ils sont frais mes poissons !",
+      "color": "white"
+    },
+    "icon": {
+      "id": "tropical_fish",
+      "tag": 0
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "cod": {
+      "trigger": "minecraft:impossible"
+    },
+    "tropical_fish": {
+      "trigger": "minecraft:impossible"
+    },
+    "pufferfish": {
+      "trigger": "minecraft:impossible"
+    },
+    "salmon": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {},
+  "requirements": [
+    [
+      "cod"
+    ],
+    [
+      "tropical_fish"
+    ],
+    [
+      "pufferfish"
+    ],
+    [
+      "salmon"
+    ]
+  ],
+  "parent": "mobheads:watermobs"
+}
