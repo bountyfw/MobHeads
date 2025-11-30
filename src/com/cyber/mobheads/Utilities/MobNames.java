@@ -277,7 +277,13 @@ public enum MobNames {
 			case CHICKEN:
 				return getChickenName((Chicken) entity);
 			case COW:
-				return getCowName((Cow) entity);
+				// Vérifier que l'entité est bien une instance de Cow (interface)
+				// et non AbstractCow (classe concrète) pour éviter NoSuchMethodError
+				if (entity instanceof Cow) {
+					return getCowName((Cow) entity);
+				}
+				// Si ce n'est pas une Cow, retourner la variante par défaut
+				return Temperate_Cow;
 			case CREEPER:
 				return getCreeperName((Creeper) entity);
 			case DOLPHIN:
@@ -886,10 +892,13 @@ public enum MobNames {
 	}
 
 	private static MobNames getCowName(Cow c) {
-		if (c.getVariant().equals(Cow.Variant.COLD)) {
+		// Appel direct - si l'entité est bien une instance de Cow (interface),
+		// la méthode getVariant() devrait être disponible
+		Cow.Variant variant = c.getVariant();
+		if (variant == Cow.Variant.COLD) {
 			return Cold_Cow;
 		}
-		if (c.getVariant().equals(Cow.Variant.WARM)) {
+		if (variant == Cow.Variant.WARM) {
 			return Warm_Cow;
 		}
 		return Temperate_Cow;
