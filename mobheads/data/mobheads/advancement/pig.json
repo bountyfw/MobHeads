@@ -1,0 +1,41 @@
+{
+  "display": {
+    "description": {
+      "text": "Obtiens toutes les têtes de cochon",
+      "color": "white"
+    },
+    "title": {
+      "text": "Blasphème à la mémoire de Technoblade",
+      "color": "white"
+    },
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {"profile":{"id":[-98350811,-1648473201,-1522238352,-76846395],"properties":[{"name":"textures","value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2ZlOTcyNWM5NTA0NzJlNDY5YjlmY2NhZTMyZjYxYmNlZmViZGI1ZWE5Y2U5YzkyZDU4MTcxZmZiN2EzMzZmZSJ9fX0="}]}}
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "temperate_pig": {
+      "trigger": "minecraft:impossible"
+    },
+    "cold_pig": {
+      "trigger": "minecraft:impossible"
+    },
+    "warm_pig": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {},
+  "requirements": [
+    [
+      "temperate_pig"
+    ],
+    [
+      "cold_pig"
+    ],
+    [
+      "warm_pig"
+    ]
+  ],
+  "parent": "mobheads:firstmobhead"
+} 

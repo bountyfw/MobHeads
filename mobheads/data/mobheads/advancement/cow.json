@@ -1,0 +1,53 @@
+{
+  "display": {
+    "description": {
+      "text": "Obtiens toutes les têtes de vache",
+      "color": "white"
+    },
+    "title": {
+      "text": "C'est vache tout de même...",
+      "color": "white"
+    },
+    "icon": {
+      "id": "cow_spawn_egg",
+      "tag": 0
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "temperate_cow": {
+      "trigger": "minecraft:impossible"
+    },
+    "mooshroom": {
+      "trigger": "minecraft:impossible"
+    },
+    "mooshroom_brown": {
+      "trigger": "minecraft:impossible"
+    },
+    "cold_cow":{
+        "trigger": "minecraft:impossible"
+    },
+    "warm_cow": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {},
+  "requirements": [
+    [
+      "temperate_cow"
+    ],
+    [
+      "mooshroom"
+    ],
+    [
+      "mooshroom_brown"
+    ],
+    [
+      "cold_cow"
+    ],
+    [
+      "warm_cow"
+    ]
+  ],
+  "parent": "mobheads:firstmobhead"
+} 

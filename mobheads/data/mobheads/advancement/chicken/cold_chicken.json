@@ -1,0 +1,30 @@
+{
+    "display": {
+      "description": {
+        "text": "Obtiens sa tête.",
+        "color": "white"
+      },
+      "title": {
+        "text": "Poule froide",
+        "color": "white"
+      },
+      "icon": {
+        "id": "minecraft:player_head",
+			  "components": {"profile":{"id":[-98350811,-1648473201,-1522238352,-76846395],"properties":[{"name":"textures","value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzE3NTNkY2Y5YWIzNzg3NGM4ZDU3OGUxNTU5YjM4M2NiMWQxZjBiYjNiMjllNmM5NjA1ZjNhODE3YmU4ZmRjNyJ9fX0="}]}}
+      },
+      "frame": "task"
+    },
+    "criteria": {
+        "cold_chicken": {
+          "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {
+    },
+    "requirements": [
+      [
+        "cold_chicken"
+      ]
+    ],
+    "parent": "mobheads:chicken/temperate_chicken"
+  }

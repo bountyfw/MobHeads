@@ -212,7 +212,7 @@ ListOfMobs:
     advancements:
       - "mobheads:firstmobhead first_mob_head"
       - "mobheads:thelegend27 cave_spider"
-  Chicken:
+  Temperate_Chicken:
     dropChance: DEFAULT
     lootingBonus: DEFAULT
     dropOnChargedCreeperDeath: false
@@ -222,7 +222,7 @@ ListOfMobs:
     textureCode: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTYzODQ2OWE1OTljZWVmNzIwNzUzNzYwMzI0OGE5YWIxMWZmNTkxZmQzNzhiZWE0NzM1YjM0NmE3ZmFlODkzIn19fQ==
     advancements:
       - "mobheads:firstmobhead first_mob_head"
-      - "mobheads:thelegend27 chicken"
+      - "mobheads:thelegend27 temperate_chicken"
   Cod:
     dropChance: DEFAULT
     lootingBonus: DEFAULT
@@ -236,7 +236,7 @@ ListOfMobs:
       - "mobheads:thelegend27 cod"
       - "mobheads:fish cod"
       - "mobheads:watermobs cod"
-  Cow:
+  Temperate_Cow:
     dropChance: DEFAULT
     lootingBonus: DEFAULT
     dropOnChargedCreeperDeath: false
@@ -246,7 +246,7 @@ ListOfMobs:
     textureCode: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQ2YzZlZGE5NDJmN2Y1ZjcxYzMxNjFjNzMwNmY0YWVkMzA3ZDgyODk1ZjlkMmIwN2FiNDUyNTcxOGVkYzUifX19
     advancements:
       - "mobheads:firstmobhead first_mob_head"
-      - "mobheads:thelegend27 cow"
+      - "mobheads:thelegend27 temperate_cow"
   Charged_Creeper:
     dropChance: DEFAULT
     lootingBonus: DEFAULT
@@ -732,7 +732,7 @@ ListOfMobs:
     advancements:
       - "mobheads:firstmobhead first_mob_head"
       - "mobheads:thelegend27 phantom"
-  Pig:
+  Temperate_Pig:
     dropChance: DEFAULT
     lootingBonus: DEFAULT
     dropOnChargedCreeperDeath: false
@@ -742,7 +742,7 @@ ListOfMobs:
     textureCode: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjIxNjY4ZWY3Y2I3OWRkOWMyMmNlM2QxZjNmNGNiNmUyNTU5ODkzYjZkZjRhNDY5NTE0ZTY2N2MxNmFhNCJ9fX0=
     advancements:
       - "mobheads:firstmobhead first_mob_head"
-      - "mobheads:thelegend27 pig"
+      - "mobheads:thelegend27 temperate_pig"
   Polar_Bear:
     dropChance: DEFAULT
     lootingBonus: DEFAULT
@@ -1652,11 +1652,131 @@ ListOfMobs:
     textureCode: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQzZTM0YzMwNjNkMWE1MzAxNmI2MmRhYTViYjE1YjcyMjllOWMwYjc3MjVlYTRlODk1Y2JhYmM1ZmE3ODQwMCJ9fX0=
     advancements:
       - "mobheads:firstmobhead first_mob_head"
-      - "mobheads:thelegend27 spotted_wolf" 
-   
-      
-      
-  ## OLD WOLF TYPES REPLACE WITH ABOVE WOLF TYPES   
+      - "mobheads:thelegend27 spotted_wolf"
+  Cold_Cow:
+    dropChance: DEFAULT
+    lootingBonus: DEFAULT
+    dropOnChargedCreeperDeath: false
+    broadcastMessage: false
+    displayName: "&eCold Cow"
+    random_uuid: 0d0cb002-321b-406c-8fec-bae45a85a8d6
+    textureCode: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWQwNjg4ODVkMmRmYTNhMzA5MzYzYWYwYTg3ZGNhNmZiZjYyOWY3MTMwNzRmOTY4NjIxOWQ3YmE3YWY3MDA4ZCJ9fX0=
+    advancements:
+      - "mobheads:firstmobhead first_mob_head"
+      - "mobheads:thelegend27 cold_cow"
+  Warm_Cow:
+    dropChance: DEFAULT
+    lootingBonus: DEFAULT
+    dropOnChargedCreeperDeath: false
+    broadcastMessage: false
+    displayName: "&eWarm Cow"
+    random_uuid: 0d0cb002-321b-406c-8fec-bae45a85a8d6
+    textureCode: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzdlZWI0OTMzNWUwM2ZlNzkxMTI5NTA3NWQ2YWUxZThhOWIwOTFmYzZjNDg5NmZkMmNjZWM4MzU5YzEwYjAwNiJ9fX0=
+    advancements:
+      - "mobheads:firstmobhead first_mob_head"
+      - "mobheads:thelegend27 warm_cow"
+  Cold_Pig:
+    dropChance: DEFAULT
+    lootingBonus: DEFAULT
+    dropOnChargedCreeperDeath: false
+    broadcastMessage: false
+    displayName: "&eCold Pig"
+    random_uuid: 0d0cb002-321b-406c-8fec-bae45a85a8d6
+    textureCode: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmExOGQ0MDQzY2Q2YzkwMzg2Njc4ODkxNGZkNTM0MzE1MjgxYWY5ZjI1OWUzNDgzN2UzZTE3NWU1NDVjMmVkZSJ9fX0=
+    advancements:
+      - "mobheads:firstmobhead first_mob_head"
+      - "mobheads:thelegend27 cold_pig"
+  Warm_Pig:
+    dropChance: DEFAULT
+    lootingBonus: DEFAULT
+    dropOnChargedCreeperDeath: false
+    broadcastMessage: false
+    displayName: "&eWarm Pig"
+    random_uuid: 0d0cb002-321b-406c-8fec-bae45a85a8d6
+    textureCode: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2JlYmExYTJkNTZlODRmOGU1MWZlZDY2NTlmMmNiN2MxNGZlZDQzODU5YWY1ODQ3Mzc4OTdiZjcwYzAzOTQ3NSJ9fX0=
+    advancements:
+      - "mobheads:firstmobhead first_mob_head"
+      - "mobheads:thelegend27 warm_pig"
+  Cold_Chicken:
+    dropChance: DEFAULT
+    lootingBonus: DEFAULT
+    dropOnChargedCreeperDeath: false
+    broadcastMessage: false
+    displayName: "&eCold Pig"
+    random_uuid: 0d0cb002-321b-406c-8fec-bae45a85a8d6
+    textureCode: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzE3NTNkY2Y5YWIzNzg3NGM4ZDU3OGUxNTU5YjM4M2NiMWQxZjBiYjNiMjllNmM5NjA1ZjNhODE3YmU4ZmRjNyJ9fX0=
+    advancements:
+      - "mobheads:firstmobhead first_mob_head"
+      - "mobheads:thelegend27 cold_chicken"
+  Warm_Chicken:
+    dropChance: DEFAULT
+    lootingBonus: DEFAULT
+    dropOnChargedCreeperDeath: false
+    broadcastMessage: false
+    displayName: "&eWarm Pig"
+    random_uuid: 0d0cb002-321b-406c-8fec-bae45a85a8d6
+    textureCode: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzUxYzc0ZjZkMWVkNmJlZmJlNjM3NmNhMzIyYjUzYmI2ZjY4ZTExZDFjZTM5YzZiY2VkZWEyOTgyNTk5MzY5MyJ9fX0=
+    advancements:
+      - "mobheads:firstmobhead first_mob_head"
+      - "mobheads:thelegend27 warm_chicken"
+  Copper_Golem:
+    dropChance: DEFAULT
+    lootingBonus: DEFAULT
+    dropOnChargedCreeperDeath: false
+    broadcastMessage: false
+    displayName: "&eCopper Golem"
+    random_uuid: 0d0cb002-321b-406c-8fec-bae45a85a8d6
+    textureCode: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjQ4ZTBmOWViMjRhMTA2MDA3Mjk0MzhkZDk5OTk3ODM5ZTFhOTllMjc2ZDc2ZTMyZmQ0MzRiZGI1ZjU0Mjk2YyJ9fX0=
+    advancements:
+      - "mobheads:firstmobhead first_mob_head"
+      - "mobheads:thelegend27 copper_golem"
+  Exposed_Copper_Golem:
+    dropChance: DEFAULT
+    lootingBonus: DEFAULT
+    dropOnChargedCreeperDeath: false
+    broadcastMessage: false
+    displayName: "&eExposed Copper Golem"
+    random_uuid: 0d0cb002-321b-406c-8fec-bae45a85a8d6
+    textureCode: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmRiMWM0NDViODBhYjliNGM5MWZjYTdjOGNhMzZkMDRiZTZiYWY1ZTI1MDdiYTFiNDE2MTYwYjg5MjVhODk1MyJ9fX0=
+    advancements:
+      - "mobheads:firstmobhead first_mob_head"
+      - "mobheads:thelegend27 exposed_copper_golem"
+  Weathered_Copper_Golem:
+    dropChance: DEFAULT
+    lootingBonus: DEFAULT
+    dropOnChargedCreeperDeath: false
+    broadcastMessage: false
+    displayName: "&eWeathered Copper Golem"
+    random_uuid: 0d0cb002-321b-406c-8fec-bae45a85a8d6
+    textureCode: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzRlODViNTJlMzc4ZDM5YzY2N2I4MDQ0OGU1M2ViZmY0ODhjNWYwNmNhZTNhZWEwMGQ5NTcwYmQ2Y2MzMmE5OSJ9fX0=
+    advancements:
+      - "mobheads:firstmobhead first_mob_head"
+      - "mobheads:thelegend27 weathered_copper_golem"
+  Oxidized_Copper_Golem:
+    dropChance: DEFAULT
+    lootingBonus: DEFAULT
+    dropOnChargedCreeperDeath: false
+    broadcastMessage: false
+    displayName: "&eOxidized Copper Golem"
+    random_uuid: 0d0cb002-321b-406c-8fec-bae45a85a8d6
+    textureCode: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFiZjI0YWU4ODk1YmZkYjlkMGU3NWZlNGQ0MTVkNzZmOTk0ZGM3YTVmZjM2OGQ5NDE0OWQ3NjU5YzM5NmExYiJ9fX0=
+    advancements:
+      - "mobheads:firstmobhead first_mob_head"
+      - "mobheads:thelegend27 oxidized_copper_golem"
+  Happy_Ghast:
+    dropChance: DEFAULT
+    lootingBonus: DEFAULT
+    dropOnChargedCreeperDeath: false
+    broadcastMessage: false
+    displayName: "&eHappy Ghast"
+    random_uuid: 0d0cb002-321b-406c-8fec-bae45a85a8d6
+    textureCode: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTFhMzZjYjkzZDAxNjc1YzQ2MjJkZDVjOGQ4NzIxMTA5MTFlYzEyYzM3MmU4OWFmYThiYTAzODYyODY3ZjZmYiJ9fX0=
+    advancements:
+      - "mobheads:firstmobhead first_mob_head"
+      - "mobheads:thelegend27 happy_ghast"
+
+
+    ## OLD WOLF TYPES REPLACE WITH ABOVE WOLF TYPES
   Wild_Wolf:
     dropChance: DEFAULT
     lootingBonus: DEFAULT

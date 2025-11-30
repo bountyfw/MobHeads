@@ -24,13 +24,13 @@
     "cave_spider": {
       "trigger": "minecraft:impossible"
     },
-    "chicken": {
+    "temperate_chicken": {
       "trigger": "minecraft:impossible"
     },
     "cod": {
       "trigger": "minecraft:impossible"
     },
-    "cow": {
+    "temperate_cow": {
       "trigger": "minecraft:impossible"
     },
     "charged_creeper": {
@@ -147,7 +147,7 @@
     "phantom": {
       "trigger": "minecraft:impossible"
     },
-    "pig": {
+    "temperate_pig": {
       "trigger": "minecraft:impossible"
     },
     "polar_bear": {
@@ -569,6 +569,39 @@
     },
     "breeze": {
       "trigger": "minecraft:impossible"
+    },
+    "cold_cow": {
+      "trigger": "minecraft:impossible"
+    },
+    "warm_cow": {
+      "trigger": "minecraft:impossible"
+    },
+    "cold_pig": {
+      "trigger": "minecraft:impossible"
+    },
+    "warm_pig": {
+      "trigger": "minecraft:impossible"
+    },
+    "cold_chicken": {
+      "trigger": "minecraft:impossible"
+    },
+    "warm_chicken": {
+      "trigger": "minecraft:impossible"
+    },
+    "copper_golem": {
+      "trigger": "minecraft:impossible"
+    },
+    "exposed_copper_golem": {
+      "trigger": "minecraft:impossible"
+    },
+    "weathered_copper_golem": {
+      "trigger": "minecraft:impossible"
+    },
+    "oxidized_copper_golem": {
+      "trigger": "minecraft:impossible"
+    },
+    "happy_ghast": {
+      "trigger": "minecraft:impossible"
     }
 
   },
@@ -585,13 +618,13 @@
       "cave_spider"
     ],
     [
-      "chicken"
+      "temperate_chicken"
     ],
     [
       "cod"
     ],
     [
-      "cow"
+      "temperate_cow"
     ],
     [
       "charged_creeper"
@@ -708,7 +741,7 @@
       "phantom"
     ],
     [
-      "pig"
+      "temperate_pig"
     ],
     [
       "polar_bear"
@@ -1129,6 +1162,39 @@
     ],
     [
       "breeze"
+    ],
+    [
+      "cold_cow"
+    ],
+    [
+      "warm_cow"
+    ],
+    [
+      "cold_pig"
+    ],
+    [
+      "warm_pig"
+    ],
+    [
+      "cold_chicken"
+    ],
+    [
+      "warm_chicken"
+    ],
+    [
+      "copper_golem"
+    ],
+    [
+      "exposed_copper_golem"
+    ],
+    [
+      "weathered_copper_golem"
+    ],
+    [
+      "oxidized_copper_golem"
+    ],
+    [
+      "happy_ghast"
     ]
   ],
   "parent": "mobheads:root"
