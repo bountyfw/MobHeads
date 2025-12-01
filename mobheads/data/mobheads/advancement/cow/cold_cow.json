@@ -15,9 +15,9 @@
       "frame": "task"
     },
     "criteria": {
-      "cold_cow": {
-        "trigger": "minecraft:impossible"
-      }
+        "cold_cow": {
+          "trigger": "minecraft:impossible"
+        }
     },
     "rewards": {
     },

@@ -277,12 +277,9 @@ public enum MobNames {
 			case CHICKEN:
 				return getChickenName((Chicken) entity);
 			case COW:
-				// Vérifier que l'entité est bien une instance de Cow (interface)
-				// et non AbstractCow (classe concrète) pour éviter NoSuchMethodError
 				if (entity instanceof Cow) {
 					return getCowName((Cow) entity);
 				}
-				// Si ce n'est pas une Cow, retourner la variante par défaut
 				return Temperate_Cow;
 			case CREEPER:
 				return getCreeperName((Creeper) entity);
@@ -891,34 +888,32 @@ public enum MobNames {
 		return null;
 	}
 
-	private static MobNames getCowName(Cow c) {
-		// Appel direct - si l'entité est bien une instance de Cow (interface),
-		// la méthode getVariant() devrait être disponible
-		Cow.Variant variant = c.getVariant();
-		if (variant == Cow.Variant.COLD) {
-			return Cold_Cow;
-		}
-		if (variant == Cow.Variant.WARM) {
-			return Warm_Cow;
-		}
-		return Temperate_Cow;
-	}
 
 	private static MobNames getPigName(Pig p) {
 		if (p.getVariant().equals(Pig.Variant.COLD)) {
-			return Cold_Cow;
+			return Cold_Pig;
 		}
 		if (p.getVariant().equals(Pig.Variant.WARM)) {
-			return Warm_Cow;
+			return Warm_Pig;
 		}
 		return Temperate_Pig;
+	}
+
+	private static MobNames getCowName(Cow c) {
+		if (c.getVariant().equals(Cow.Variant.COLD)) {
+			return Cold_Cow;
+		}
+		if (c.getVariant().equals(Cow.Variant.WARM)) {
+			return Warm_Cow;
+		}
+		return Temperate_Cow;
 	}
 
 	private static MobNames getChickenName(Chicken c) {
 		if (c.getVariant().equals(Chicken.Variant.COLD)) {
 			return Cold_Chicken;
 		}
-		if (c.getVariant().equals(Pig.Variant.WARM)) {
+		if (c.getVariant().equals(Chicken.Variant.WARM)) {
 			return Warm_Chicken;
 		}
 		return Temperate_Chicken;

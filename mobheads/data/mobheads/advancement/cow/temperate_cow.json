@@ -15,9 +15,9 @@
       "frame": "task"
     },
     "criteria": {
-      "temperate_cow": {
-        "trigger": "minecraft:impossible"
-      }
+        "temperate_cow": {
+          "trigger": "minecraft:impossible"
+        }
     },
     "rewards": {
     },
