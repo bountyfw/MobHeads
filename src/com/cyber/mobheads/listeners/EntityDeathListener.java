@@ -47,6 +47,7 @@ public class EntityDeathListener
 	@EventHandler(priority = EventPriority.MONITOR)
 	public void onEntityDeath(EntityDeathEvent event) {
 		LivingEntity livingEntity = event.getEntity();
+		System.out.println(livingEntity.toString());
 		Player killer = event.getEntity().getKiller();
 
 		try{

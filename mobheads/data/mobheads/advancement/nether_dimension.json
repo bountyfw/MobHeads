@@ -36,6 +36,9 @@
     "ghast": {
       "trigger": "minecraft:impossible"
     },
+    "happy_ghast": {
+      "trigger": "minecraft:impossible"
+    },
     "blaze": {
       "trigger": "minecraft:impossible"
     },
@@ -68,6 +71,9 @@
     ],
     [
       "ghast"
+    ],
+    [
+      "happy_ghast"
     ],
     [
       "blaze"

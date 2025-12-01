@@ -1,0 +1,47 @@
+{
+  "display": {
+    "description": {
+      "text": "Obtiens toutes les têtes de golems de cuivre",
+      "color": "white"
+    },
+    "title": {
+      "text": "Et la tête, elle s'oxyde ?",
+      "color": "white"
+    },
+    "icon": {
+      "id": "copper_golem_spawn_egg",
+      "tag": 0
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "copper_golem": {
+      "trigger": "minecraft:impossible"
+    },
+    "exposed_copper_golem": {
+      "trigger": "minecraft:impossible"
+    },
+    "weathered_copper_golem": {
+      "trigger": "minecraft:impossible"
+    },
+    "oxidized_copper_golem": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {},
+  "requirements": [
+    [
+      "copper_golem"
+    ],
+    [
+      "exposed_copper_golem"
+    ],
+    [
+      "weathered_copper_golem"
+    ],
+    [
+      "oxidized_copper_golem"
+    ]
+  ],
+  "parent": "mobheads:firstmobhead"
+} 

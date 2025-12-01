@@ -15,8 +15,8 @@
       "frame": "task"
     },
     "criteria": {
-      "mooshroom_brown": {
-        "trigger": "minecraft:impossible"
+        "mooshroom_brown": {
+          "trigger": "minecraft:impossible"
       }
     },
     "rewards": {
@@ -26,5 +26,5 @@
         "mooshroom_brown"
       ]
     ],
-    "parent": "mobheads:passif/mooshroom"
+    "parent": "mobheads:cow/mooshroom"
   }

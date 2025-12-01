@@ -26,5 +26,5 @@
         "mooshroom"
       ]
     ],
-    "parent": "mobheads:passif/cow"
+    "parent": "mobheads:cow/temperate_cow"
   }

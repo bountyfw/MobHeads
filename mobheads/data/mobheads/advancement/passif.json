@@ -17,21 +17,6 @@
       "bat": {
         "trigger": "minecraft:impossible"
       },
-      "cow": {
-        "trigger": "minecraft:impossible"
-      },
-      "mooshroom": {
-        "trigger": "minecraft:impossible"
-      },
-      "mooshroom_brown": {
-        "trigger": "minecraft:impossible"
-      },
-      "chicken": {
-        "trigger": "minecraft:impossible"
-      },
-      "pig": {
-        "trigger": "minecraft:impossible"
-      },
       "polar_bear": {
         "trigger": "minecraft:impossible"
       },
@@ -71,21 +56,6 @@
     "requirements": [
       [
         "bat"
-      ],
-      [
-        "cow"
-      ],
-      [
-        "mooshroom"
-      ],
-      [
-        "mooshroom_brown"
-      ],
-      [
-        "chicken"
-      ],
-      [
-        "pig"
       ],
       [
         "polar_bear"

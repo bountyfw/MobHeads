@@ -26,5 +26,5 @@
         "bat"
       ]
     ],
-    "parent": "mobheads:passif/pig"
+    "parent": "mobheads:passif"
   }

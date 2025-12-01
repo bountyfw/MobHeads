@@ -15,16 +15,16 @@
       "frame": "task"
     },
     "criteria": {
-      "cow": {
-        "trigger": "minecraft:impossible"
-      }
+        "temperate_cow": {
+          "trigger": "minecraft:impossible"
+        }
     },
     "rewards": {
     },
     "requirements": [
       [
-        "cow"
+        "temperate_cow"
       ]
     ],
-    "parent": "mobheads:passif"
+    "parent": "mobheads:cow"
   }

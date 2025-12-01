@@ -15,16 +15,16 @@
       "frame": "task"
     },
     "criteria": {
-      "chicken": {
-        "trigger": "minecraft:impossible"
+        "temperate_chicken": {
+          "trigger": "minecraft:impossible"
       }
     },
     "rewards": {
     },
     "requirements": [
       [
-        "chicken"
+        "temperate_chicken"
       ]
     ],
-    "parent": "mobheads:passif"
+    "parent": "mobheads:chicken"
   }

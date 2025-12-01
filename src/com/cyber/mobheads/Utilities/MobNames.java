@@ -1,5 +1,6 @@
 package com.cyber.mobheads.Utilities;
 
+import io.papermc.paper.world.WeatheringCopperState;
 import org.bukkit.entity.*;
 import org.bukkit.entity.Villager.Profession;
 
@@ -10,8 +11,6 @@ public enum MobNames {
 	Sniffer,
 	Blaze,
 	Cave_Spider,
-	Chicken,
-	Cow,
 	Creeper,
 	Charged_Creeper,
 	Dolphin,
@@ -54,7 +53,6 @@ public enum MobNames {
 	Green_Parrot,
 	Red_Parrot,
 	Phantom,
-	Pig,
 	Polar_Bear,
 	Black_Rabbit,
 	Black_and_White_Rabbit,
@@ -221,8 +219,27 @@ public enum MobNames {
 	Strider,
 
 	/*
+	*1.21.10
+	 */
+	Temperate_Cow,
+	Temperate_Pig,
+	Temperate_Chicken,
+	Cold_Cow,
+	Warm_Cow,
+	Cold_Pig,
+	Warm_Pig,
+	Cold_Chicken,
+	Warm_Chicken,
+	Copper_Golem,
+	Exposed_Copper_Golem,
+	Weathered_Copper_Golem,
+	Oxidized_Copper_Golem,
+	Happy_Ghast,
+
+	/*
 	 * 1.21.4
 	 */
+
 	Creaking;
 
 	public static MobNames getName(Entity entity) {
@@ -258,9 +275,12 @@ public enum MobNames {
 			case CAVE_SPIDER:
 				return Cave_Spider;
 			case CHICKEN:
-				return Chicken;
+				return getChickenName((Chicken) entity);
 			case COW:
-				return Cow;
+				if (entity instanceof Cow) {
+					return getCowName((Cow) entity);
+				}
+				return Temperate_Cow;
 			case CREEPER:
 				return getCreeperName((Creeper) entity);
 			case DOLPHIN:
@@ -312,7 +332,7 @@ public enum MobNames {
 			case PHANTOM:
 				return Phantom;
 			case PIG:
-				return Pig;
+				return getPigName((Pig) entity);
 			case POLAR_BEAR:
 				return Polar_Bear;
 			case RABBIT:
@@ -401,6 +421,10 @@ public enum MobNames {
 				return Breeze;
 			case CREAKING:
 				return Creaking;
+			case HAPPY_GHAST:
+				return Happy_Ghast;
+			case COPPER_GOLEM:
+				return getCopperGolemName((CopperGolem) entity);
 		default:
 			break;
 		}
@@ -863,5 +887,50 @@ public enum MobNames {
 		}
 		return null;
 	}
+
+
+	private static MobNames getPigName(Pig p) {
+		if (p.getVariant().equals(Pig.Variant.COLD)) {
+			return Cold_Pig;
+		}
+		if (p.getVariant().equals(Pig.Variant.WARM)) {
+			return Warm_Pig;
+		}
+		return Temperate_Pig;
+	}
+
+	private static MobNames getCowName(Cow c) {
+		if (c.getVariant().equals(Cow.Variant.COLD)) {
+			return Cold_Cow;
+		}
+		if (c.getVariant().equals(Cow.Variant.WARM)) {
+			return Warm_Cow;
+		}
+		return Temperate_Cow;
+	}
+
+	private static MobNames getChickenName(Chicken c) {
+		if (c.getVariant().equals(Chicken.Variant.COLD)) {
+			return Cold_Chicken;
+		}
+		if (c.getVariant().equals(Chicken.Variant.WARM)) {
+			return Warm_Chicken;
+		}
+		return Temperate_Chicken;
+	}
+
+	private static MobNames getCopperGolemName(CopperGolem g) {
+		if (g.getWeatheringState().equals(WeatheringCopperState.EXPOSED)) {
+			return Exposed_Copper_Golem;
+		}
+		if (g.getWeatheringState().equals(WeatheringCopperState.WEATHERED)) {
+			return Weathered_Copper_Golem;
+		}
+		if (g.getWeatheringState().equals(WeatheringCopperState.OXIDIZED)) {
+			return Oxidized_Copper_Golem;
+		}
+		return Copper_Golem;
+	}
+
 }
 
