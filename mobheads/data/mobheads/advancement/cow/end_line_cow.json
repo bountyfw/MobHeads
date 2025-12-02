@@ -4,5 +4,5 @@
           "trigger":"minecraft:location"
        }
     },
-    "parent": "mobheads:cow/warm_cow"
+    "parent": "mobheads:cow/mooshroom_brown"
  }

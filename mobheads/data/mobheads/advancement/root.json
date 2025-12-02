@@ -12,7 +12,7 @@
       "id": "parrot_spawn_egg",
       "tag": 0
     },
-    "background": "minecraft:textures/block/oak_log.png",
+    "background": "minecraft:block/oak_log",
     "announce_to_chat": false,
     "show_toast": false
   },
