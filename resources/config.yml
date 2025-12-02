@@ -223,6 +223,8 @@ ListOfMobs:
     advancements:
       - "mobheads:firstmobhead first_mob_head"
       - "mobheads:thelegend27 temperate_chicken"
+      - "mobheads:chicken temperate_chicken"
+      - "mobheads:chicken/temperate_chicken temperate_chicken"
   Cod:
     dropChance: DEFAULT
     lootingBonus: DEFAULT
@@ -247,6 +249,8 @@ ListOfMobs:
     advancements:
       - "mobheads:firstmobhead first_mob_head"
       - "mobheads:thelegend27 temperate_cow"
+      - "mobheads:cow temperate_cow"
+      - "mobheads:cow/temperate_cow temperate_cow"
   Charged_Creeper:
     dropChance: DEFAULT
     lootingBonus: DEFAULT
@@ -638,6 +642,9 @@ ListOfMobs:
     advancements:
       - "mobheads:firstmobhead first_mob_head"
       - "mobheads:thelegend27 mooshroom"
+      - "mobheads:cow mooshroom"
+      - "mobheads:cow/mooshroom mooshroom"
+      -
   Mule:
     dropChance: 0DEFAULT
     lootingBonus: DEFAULT
@@ -743,6 +750,8 @@ ListOfMobs:
     advancements:
       - "mobheads:firstmobhead first_mob_head"
       - "mobheads:thelegend27 temperate_pig"
+      - "mobheads:pig temperate_pig"
+      - "mobheads:pig/temperate_pig temperate_pig"
   Polar_Bear:
     dropChance: DEFAULT
     lootingBonus: DEFAULT
@@ -1664,6 +1673,8 @@ ListOfMobs:
     advancements:
       - "mobheads:firstmobhead first_mob_head"
       - "mobheads:thelegend27 cold_cow"
+      - "mobheads:cow cold_cow"
+      - "mobheads:cow/cold_cow cold_cow"
   Warm_Cow:
     dropChance: DEFAULT
     lootingBonus: DEFAULT
@@ -1675,6 +1686,8 @@ ListOfMobs:
     advancements:
       - "mobheads:firstmobhead first_mob_head"
       - "mobheads:thelegend27 warm_cow"
+      - "mobheads:cow warm_cow"
+      - "mobheads:cow/warm_cow warm_cow"
   Cold_Pig:
     dropChance: DEFAULT
     lootingBonus: DEFAULT
@@ -1686,6 +1699,8 @@ ListOfMobs:
     advancements:
       - "mobheads:firstmobhead first_mob_head"
       - "mobheads:thelegend27 cold_pig"
+      - "mobheads:pig cold_pig"
+      - "mobheads:pig/cold_pig cold_pig"
   Warm_Pig:
     dropChance: DEFAULT
     lootingBonus: DEFAULT
@@ -1697,6 +1712,8 @@ ListOfMobs:
     advancements:
       - "mobheads:firstmobhead first_mob_head"
       - "mobheads:thelegend27 warm_pig"
+      - "mobheads:pig warm_pig"
+      - "mobheads:pig/warm_pig warm_pig"
   Cold_Chicken:
     dropChance: DEFAULT
     lootingBonus: DEFAULT
@@ -1708,6 +1725,8 @@ ListOfMobs:
     advancements:
       - "mobheads:firstmobhead first_mob_head"
       - "mobheads:thelegend27 cold_chicken"
+      - "mobheads:chicken cold_chicken"
+      - "mobheads:chicken/cold_chicken cold_chicken"
   Warm_Chicken:
     dropChance: DEFAULT
     lootingBonus: DEFAULT
@@ -1719,6 +1738,8 @@ ListOfMobs:
     advancements:
       - "mobheads:firstmobhead first_mob_head"
       - "mobheads:thelegend27 warm_chicken"
+      - "mobheads:chicken warm_chicken"
+      - "mobheads:chicken/warm_chicken warm_chicken"
   Copper_Golem:
     dropChance: DEFAULT
     lootingBonus: DEFAULT
@@ -1730,6 +1751,8 @@ ListOfMobs:
     advancements:
       - "mobheads:firstmobhead first_mob_head"
       - "mobheads:thelegend27 copper_golem"
+      - "mobheads:copper_golem copper_golem"
+      - "mobheads:copper_golem/copper_golem copper_golem"
   Exposed_Copper_Golem:
     dropChance: DEFAULT
     lootingBonus: DEFAULT
@@ -1741,6 +1764,8 @@ ListOfMobs:
     advancements:
       - "mobheads:firstmobhead first_mob_head"
       - "mobheads:thelegend27 exposed_copper_golem"
+      - "mobheads:copper_golem exposed_copper_golem"
+      - "mobheads:copper_golem/exposed_copper_golem exposed_copper_golem"
   Weathered_Copper_Golem:
     dropChance: DEFAULT
     lootingBonus: DEFAULT
@@ -1752,6 +1777,8 @@ ListOfMobs:
     advancements:
       - "mobheads:firstmobhead first_mob_head"
       - "mobheads:thelegend27 weathered_copper_golem"
+      - "mobheads:copper_golem weathered_copper_golem"
+      - "mobheads:copper_golem/weathered_copper_golem weathered_copper_golem"
   Oxidized_Copper_Golem:
     dropChance: DEFAULT
     lootingBonus: DEFAULT
@@ -1763,6 +1790,8 @@ ListOfMobs:
     advancements:
       - "mobheads:firstmobhead first_mob_head"
       - "mobheads:thelegend27 oxidized_copper_golem"
+      - "mobheads:copper_golem oxidized_copper_golem"
+      - "mobheads:copper_golem/oxidized_copper_golem oxidized_copper_golem"
   Happy_Ghast:
     dropChance: DEFAULT
     lootingBonus: DEFAULT
@@ -1774,6 +1803,8 @@ ListOfMobs:
     advancements:
       - "mobheads:firstmobhead first_mob_head"
       - "mobheads:thelegend27 happy_ghast"
+      - "mobheads:nether_dimension happy_ghast"
+      - "mobheads:nether_dimension/happy_ghast happy_ghast"
 
 
     ## OLD WOLF TYPES REPLACE WITH ABOVE WOLF TYPES
@@ -1994,6 +2025,8 @@ ListOfMobs:
     advancements:
       - "mobheads:firstmobhead first_mob_head"
       - "mobheads:thelegend27 mooshroom_brown"
+      - "mobheads:cow mooshroom_brown"
+      - "mobheads:cow/mooshroom_brown mooshroom_brown"
 
   Ravager:
     dropChance: DEFAULT
