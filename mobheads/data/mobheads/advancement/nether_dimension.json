@@ -47,6 +47,9 @@
     },
     "wither_skeleton": {
       "trigger": "minecraft:impossible"
+    },
+    "zoglin": {
+      "trigger": "minecraft:impossible"
     }
   },
   "rewards": {},
@@ -83,6 +86,9 @@
     ],
     [
       "wither_skeleton"
+    ],
+    [
+      "zoglin"
     ]
   ],
   "parent": "mobheads:firstmobhead"
