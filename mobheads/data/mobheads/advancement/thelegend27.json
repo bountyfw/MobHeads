@@ -602,6 +602,9 @@
     },
     "happy_ghast": {
       "trigger": "minecraft:impossible"
+    },
+    "zoglin": {
+      "trigger": "minecraft:impossible"
     }
 
   },
@@ -1195,6 +1198,9 @@
     ],
     [
       "happy_ghast"
+    ],
+    [
+      "zoglin"
     ]
   ],
   "parent": "mobheads:root"
